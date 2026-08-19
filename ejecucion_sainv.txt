@@ -1,0 +1,9 @@
+
+Dimension:  1465137
+nnz(A):     21005389
+Hilos:      12
+Tolerancia: 1.00e-10
+Tau SAINV:  0.10
+
+Construyendo GCP SAINV... terminado en 10.063338 s
+Resolviendo con GCP SAINV... terminado

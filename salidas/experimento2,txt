@@ -1,0 +1,5413 @@
+
+============================================================
+AJUSTE DE HIPERPARAMETROS
+============================================================
+Matrices:       20
+Tolerancia:     1.000000e-10
+MaxIter:        1000000
+Hilos:          12
+Margen de poda: 2.00x
+
+############################################################
+MATRIZ 1/20: bcsstk17
+############################################################
+n:      10974
+nnz(A): 428650
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.01 tiempo=0.096458 nnz=63912
+tau=0.050000 tiempo=0.016302 nnz=19106
+tau=0.100000 tiempo=0.007402 nnz=10024
+tau=0.200000 tiempo=0.003338 nnz=5085
+tau=0.500000 tiempo=0.001226 nnz=2200
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   22295
+Construccion: 0.014542 s
+Resolviendo... terminada
+Resolucion:   0.199809 s
+Total:        0.214351 s
+Iteraciones:  1947
+Residuo:      9.416113e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.039601 s
+Limite de poda:         0.428702 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   56683
+Construccion: 0.046076 s
+Resolviendo... terminada
+Resolucion:   0.130495 s
+Total:        0.176572 s
+Iteraciones:  1167
+Residuo:      9.901905e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.102173 s
+Limite de poda:         0.353143 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   118454
+Construccion: 0.126421 s
+Resolviendo... terminada
+Resolucion:   0.133697 s
+Total:        0.260118 s
+Iteraciones:  1080
+Residuo:      9.431558e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.278421 s
+Limite de poda:         0.353143 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   244235
+Construccion: 0.342215 s
+Resolviendo... terminada
+Resolucion:   0.113954 s
+Total:        0.456169 s
+Iteraciones:  804
+Residuo:      9.983788e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 2.024895 s
+Limite de poda:         0.353143 s
+PODADO
+
+MEJOR SAINV: tau=0.2 total=0.176572 s
+Construyendo FSAI q=1... terminada
+nnz factor:   219812
+Construccion: 0.047825 s
+Resolviendo... terminada
+Resolucion:   0.077167 s
+Total:        0.124992 s
+Iteraciones:  609
+Residuo:      9.901214e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 12.299x
+Construccion estimada:            0.588207 s
+Limite de poda:                    0.249984 s
+PODADO
+
+MEJOR FSAI: q=1 total=0.124992 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.006598 nnz=7785
+tau=0.001000 l=10 tiempo=0.006519 nnz=13465
+tau=0.001000 l=20 tiempo=0.006646 nnz=23644
+tau=0.001000 l=40 tiempo=0.009542 nnz=41305
+tau=0.010000 l=5 tiempo=0.002764 nnz=7668
+tau=0.010000 l=10 tiempo=0.004195 nnz=13063
+tau=0.010000 l=20 tiempo=0.006171 nnz=22343
+tau=0.010000 l=40 tiempo=0.008747 nnz=35983
+tau=0.100000 l=5 tiempo=0.002385 nnz=6638
+tau=0.100000 l=10 tiempo=0.003058 nnz=9503
+tau=0.100000 l=20 tiempo=0.003556 nnz=12211
+tau=0.100000 l=40 tiempo=0.003764 nnz=13373
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   57129
+Construccion: 0.018552 s
+Resolviendo... terminada
+Resolucion:   0.336938 s
+Total:        0.355490 s
+Iteraciones:  3236
+Residuo:      8.060525e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.021501 s
+Limite de poda:         0.710980 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   62221
+Construccion: 0.023028 s
+Resolviendo... terminada
+Resolucion:   0.325262 s
+Total:        0.348290 s
+Iteraciones:  3118
+Residuo:      9.796197e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.028539 s
+Limite de poda:         0.696581 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   91345
+Construccion: 0.027000 s
+Resolviendo... terminada
+Resolucion:   0.313316 s
+Total:        0.340316 s
+Iteraciones:  2837
+Residuo:      9.706581e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.034694 s
+Limite de poda:         0.680632 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   133100
+Construccion: 0.035682 s
+Resolviendo... terminada
+Resolucion:   0.336683 s
+Total:        0.372365 s
+Iteraciones:  2851
+Residuo:      9.234571e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.039078 s
+Limite de poda:         0.680632 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   163038
+Construccion: 0.040707 s
+Resolviendo... terminada
+Resolucion:   0.344121 s
+Total:        0.384829 s
+Iteraciones:  2816
+Residuo:      9.189460e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.045369 s
+Limite de poda:         0.680632 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   111849
+Construccion: 0.034875 s
+Resolviendo... terminada
+Resolucion:   0.309508 s
+Total:        0.344382 s
+Iteraciones:  2806
+Residuo:      9.331169e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.059650 s
+Limite de poda:         0.680632 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   205691
+Construccion: 0.057930 s
+Resolviendo... terminada
+Resolucion:   0.309415 s
+Total:        0.367345 s
+Iteraciones:  2503
+Residuo:      8.355473e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.061204 s
+Limite de poda:         0.680632 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   112930
+Construccion: 0.036596 s
+Resolviendo... terminada
+Resolucion:   0.276633 s
+Total:        0.313229 s
+Iteraciones:  2481
+Residuo:      9.923155e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.037039 s
+Limite de poda:         0.626457 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   62501
+Construccion: 0.023766 s
+Resolviendo... terminada
+Resolucion:   0.326326 s
+Total:        0.350092 s
+Iteraciones:  3182
+Residuo:      9.884334e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.072181 s
+Limite de poda:         0.626457 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   211642
+Construccion: 0.062572 s
+Resolviendo... terminada
+Resolucion:   0.324777 s
+Total:        0.387349 s
+Iteraciones:  2618
+Residuo:      9.901134e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.095225 s
+Limite de poda:         0.626457 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   374172
+Construccion: 0.108777 s
+Resolviendo... terminada
+Resolucion:   0.354471 s
+Total:        0.463249 s
+Iteraciones:  2392
+Residuo:      9.744137e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.124866 s
+Limite de poda:         0.626457 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   403876
+Construccion: 0.119404 s
+Resolviendo... terminada
+Resolucion:   0.308231 s
+Total:        0.427635 s
+Iteraciones:  2026
+Residuo:      9.404281e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.001;l=10 total=0.313229 s
+
+Matriz bcsstk17 terminada.
+
+############################################################
+MATRIZ 2/20: bcsstk18
+############################################################
+n:      11948
+nnz(A): 149090
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.040795 nnz=33711
+tau=0.050000 tiempo=0.010021 nnz=13042
+tau=0.100000 tiempo=0.005682 nnz=8321
+tau=0.200000 tiempo=0.003248 nnz=5426
+tau=0.500000 tiempo=0.001609 nnz=3275
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   31725
+Construccion: 0.016505 s
+Resolviendo... terminada
+Resolucion:   0.084893 s
+Total:        0.101398 s
+Iteraciones:  905
+Residuo:      9.494838e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.033316 s
+Limite de poda:         0.202797 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   62694
+Construccion: 0.039781 s
+Resolviendo... terminada
+Resolucion:   0.056392 s
+Total:        0.096173 s
+Iteraciones:  505
+Residuo:      9.967527e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.069583 s
+Limite de poda:         0.192345 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   106145
+Construccion: 0.079707 s
+Resolviendo... terminada
+Resolucion:   0.040418 s
+Total:        0.120125 s
+Iteraciones:  354
+Residuo:      8.402273e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.140582 s
+Limite de poda:         0.192345 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   181062
+Construccion: 0.176699 s
+Resolviendo... terminada
+Resolucion:   0.036275 s
+Total:        0.212974 s
+Iteraciones:  288
+Residuo:      9.393837e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 0.719302 s
+Limite de poda:         0.192345 s
+PODADO
+
+MEJOR SAINV: tau=0.2 total=0.096173 s
+Construyendo FSAI q=1... terminada
+nnz factor:   80519
+Construccion: 0.017789 s
+Resolviendo... terminada
+Resolucion:   0.045995 s
+Total:        0.063784 s
+Iteraciones:  441
+Residuo:      9.994056e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 63.219x
+Construccion estimada:            1.124613 s
+Limite de poda:                    0.127568 s
+PODADO
+
+MEJOR FSAI: q=1 total=0.063784 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.004803 nnz=6271
+tau=0.001000 l=10 tiempo=0.007190 nnz=9993
+tau=0.001000 l=20 tiempo=0.008878 nnz=16007
+tau=0.001000 l=40 tiempo=0.005222 nnz=25687
+tau=0.010000 l=5 tiempo=0.001572 nnz=5841
+tau=0.010000 l=10 tiempo=0.002251 nnz=8782
+tau=0.010000 l=20 tiempo=0.003000 nnz=13301
+tau=0.010000 l=40 tiempo=0.004141 nnz=19754
+tau=0.100000 l=5 tiempo=0.001417 nnz=4913
+tau=0.100000 l=10 tiempo=0.001694 nnz=6484
+tau=0.100000 l=20 tiempo=0.002156 nnz=7715
+tau=0.100000 l=40 tiempo=0.002008 nnz=8148
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   46641
+Construccion: 0.013109 s
+Resolviendo... terminada
+Resolucion:   0.087870 s
+Total:        0.100979 s
+Iteraciones:  920
+Residuo:      9.255368e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.015585 s
+Limite de poda:         0.201959 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   54546
+Construccion: 0.017202 s
+Resolviendo... terminada
+Resolucion:   0.084993 s
+Total:        0.102194 s
+Iteraciones:  853
+Residuo:      9.821234e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.019096 s
+Limite de poda:         0.201959 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   67240
+Construccion: 0.019226 s
+Resolviendo... terminada
+Resolucion:   0.059874 s
+Total:        0.079101 s
+Iteraciones:  589
+Residuo:      9.891140e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.024160 s
+Limite de poda:         0.158201 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   104619
+Construccion: 0.027471 s
+Resolviendo... terminada
+Resolucion:   0.056258 s
+Total:        0.083729 s
+Iteraciones:  512
+Residuo:      9.629436e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.029500 s
+Limite de poda:         0.158201 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   89835
+Construccion: 0.019166 s
+Resolviendo... terminada
+Resolucion:   0.056887 s
+Total:        0.076054 s
+Iteraciones:  526
+Residuo:      9.068948e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.021817 s
+Limite de poda:         0.152108 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   89097
+Construccion: 0.021563 s
+Resolviendo... terminada
+Resolucion:   0.054448 s
+Total:        0.076010 s
+Iteraciones:  524
+Residuo:      9.527800e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.032658 s
+Limite de poda:         0.152021 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   146809
+Construccion: 0.029509 s
+Resolviendo... terminada
+Resolucion:   0.052628 s
+Total:        0.082137 s
+Iteraciones:  464
+Residuo:      8.792264e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.043825 s
+Limite de poda:         0.152021 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   240452
+Construccion: 0.044221 s
+Resolviendo... terminada
+Resolucion:   0.056287 s
+Total:        0.100508 s
+Iteraciones:  439
+Residuo:      9.985298e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.051295 s
+Limite de poda:         0.152021 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   57574
+Construccion: 0.017885 s
+Resolviendo... terminada
+Resolucion:   0.076485 s
+Total:        0.094370 s
+Iteraciones:  803
+Residuo:      9.452961e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.073259 s
+Limite de poda:         0.152021 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   303365
+Construccion: 0.056705 s
+Resolviendo... terminada
+Resolucion:   0.053434 s
+Total:        0.110139 s
+Iteraciones:  373
+Residuo:      9.465391e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.078076 s
+Limite de poda:         0.152021 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   97702
+Construccion: 0.021879 s
+Resolviendo... terminada
+Resolucion:   0.056510 s
+Total:        0.078389 s
+Iteraciones:  544
+Residuo:      9.692310e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.035046 s
+Limite de poda:         0.152021 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   171266
+Construccion: 0.037388 s
+Resolviendo... terminada
+Resolucion:   0.049511 s
+Total:        0.086899 s
+Iteraciones:  385
+Residuo:      7.666363e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.01;l=10 total=0.076010 s
+
+Matriz bcsstk18 terminada.
+
+############################################################
+MATRIZ 3/20: bcsstk25
+############################################################
+n:      15439
+nnz(A): 252241
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.295052 nnz=110338
+tau=0.050000 tiempo=0.054688 nnz=38744
+tau=0.100000 tiempo=0.025083 nnz=22656
+tau=0.200000 tiempo=0.011839 nnz=12969
+tau=0.500000 tiempo=0.002778 nnz=4446
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   55032
+Construccion: 0.030111 s
+Resolviendo... terminada
+Resolucion:   0.697185 s
+Total:        0.727296 s
+Iteraciones:  6172
+Residuo:      8.526404e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.128311 s
+Limite de poda:         1.454591 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   156321
+Construccion: 0.136516 s
+Resolviendo... terminada
+Resolucion:   0.455256 s
+Total:        0.591771 s
+Iteraciones:  3530
+Residuo:      9.579867e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.289226 s
+Limite de poda:         1.183543 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   293856
+Construccion: 0.342087 s
+Resolviendo... terminada
+Resolucion:   0.398068 s
+Total:        0.740155 s
+Iteraciones:  2715
+Residuo:      9.954113e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.745862 s
+Limite de poda:         1.183543 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   522600
+Construccion: 0.789421 s
+Resolviendo... terminada
+Resolucion:   0.363823 s
+Total:        1.153244 s
+Iteraciones:  2040
+Residuo:      9.774605e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 4.259065 s
+Limite de poda:         1.183543 s
+PODADO
+
+MEJOR SAINV: tau=0.2 total=0.591771 s
+Construyendo FSAI q=1... terminada
+nnz factor:   133840
+Construccion: 0.017675 s
+Resolviendo... terminada
+Resolucion:   0.426661 s
+Total:        0.444336 s
+Iteraciones:  3624
+Residuo:      9.870196e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 51.684x
+Construccion estimada:            0.913529 s
+Limite de poda:                    0.888673 s
+PODADO
+
+MEJOR FSAI: q=1 total=0.444336 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.003110 nnz=8278
+tau=0.001000 l=10 tiempo=0.003627 nnz=14650
+tau=0.001000 l=20 tiempo=0.006274 nnz=26762
+tau=0.001000 l=40 tiempo=0.010721 nnz=49525
+tau=0.010000 l=5 tiempo=0.002468 nnz=7899
+tau=0.010000 l=10 tiempo=0.003468 nnz=13458
+tau=0.010000 l=20 tiempo=0.005665 nnz=23371
+tau=0.010000 l=40 tiempo=0.008762 nnz=39132
+tau=0.100000 l=5 tiempo=0.002048 nnz=6694
+tau=0.100000 l=10 tiempo=0.002664 nnz=10048
+tau=0.100000 l=20 tiempo=0.003405 nnz=14088
+tau=0.100000 l=40 tiempo=0.003985 nnz=17372
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   75313
+Construccion: 0.018392 s
+Resolviendo... terminada
+Resolucion:   0.785048 s
+Total:        0.803440 s
+Iteraciones:  7123
+Residuo:      9.579919e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.022160 s
+Limite de poda:         1.606880 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   86938
+Construccion: 0.022333 s
+Resolviendo... terminada
+Resolucion:   0.964210 s
+Total:        0.986543 s
+Iteraciones:  8893
+Residuo:      8.484719e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.028409 s
+Limite de poda:         1.606880 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   117196
+Construccion: 0.026393 s
+Resolviendo... terminada
+Resolucion:   0.664497 s
+Total:        0.690891 s
+Iteraciones:  5616
+Residuo:      9.917708e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.030810 s
+Limite de poda:         1.381781 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   89538
+Construccion: 0.022414 s
+Resolviendo... terminada
+Resolucion:   0.975803 s
+Total:        0.998217 s
+Iteraciones:  9018
+Residuo:      9.588402e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.038146 s
+Limite de poda:         1.381781 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   172535
+Construccion: 0.035745 s
+Resolviendo... terminada
+Resolucion:   0.619931 s
+Total:        0.655675 s
+Iteraciones:  4811
+Residuo:      9.720212e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.036405 s
+Limite de poda:         1.311350 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   153653
+Construccion: 0.034311 s
+Resolviendo... terminada
+Resolucion:   0.895693 s
+Total:        0.930004 s
+Iteraciones:  7509
+Residuo:      9.342156e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.037350 s
+Limite de poda:         1.311350 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   162459
+Construccion: 0.037183 s
+Resolviendo... terminada
+Resolucion:   0.906731 s
+Total:        0.943913 s
+Iteraciones:  7615
+Residuo:      9.535612e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.044091 s
+Limite de poda:         1.311350 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   220974
+Construccion: 0.043787 s
+Resolviendo... terminada
+Resolucion:   0.601263 s
+Total:        0.645050 s
+Iteraciones:  4429
+Residuo:      8.699596e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.062252 s
+Limite de poda:         1.290101 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   278564
+Construccion: 0.057058 s
+Resolviendo... terminada
+Resolucion:   0.706381 s
+Total:        0.763439 s
+Iteraciones:  5169
+Residuo:      9.031894e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.065337 s
+Limite de poda:         1.290101 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   306429
+Construccion: 0.064058 s
+Resolviendo... terminada
+Resolucion:   0.722333 s
+Total:        0.786391 s
+Iteraciones:  5185
+Residuo:      9.644008e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.093666 s
+Limite de poda:         1.290101 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   499639
+Construccion: 0.098377 s
+Resolviendo... terminada
+Resolucion:   0.763217 s
+Total:        0.861594 s
+Iteraciones:  4415
+Residuo:      9.389776e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.124505 s
+Limite de poda:         1.290101 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   585750
+Construccion: 0.122423 s
+Resolviendo... terminada
+Resolucion:   0.686888 s
+Total:        0.809311 s
+Iteraciones:  3730
+Residuo:      9.533057e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=40 total=0.645050 s
+
+Matriz bcsstk25 terminada.
+
+############################################################
+MATRIZ 4/20: bcsstk36
+############################################################
+n:      23052
+nnz(A): 1143140
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.382368 nnz=200761
+tau=0.050000 tiempo=0.089279 nnz=58888
+tau=0.100000 tiempo=0.031385 nnz=28039
+tau=0.200000 tiempo=0.013034 nnz=13864
+tau=0.500000 tiempo=0.005506 nnz=6265
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   125121
+Construccion: 0.139469 s
+Resolviendo... terminada
+Resolucion:   17.793680 s
+Total:        17.933149 s
+Iteraciones:  89022
+Residuo:      9.840459e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.330147 s
+Limite de poda:         35.866298 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   308492
+Construccion: 0.462834 s
+Resolviendo... terminada
+Resolucion:   15.706040 s
+Total:        16.168874 s
+Iteraciones:  65469
+Residuo:      9.413588e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 1.114503 s
+Limite de poda:         32.337749 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   633858
+Construccion: 1.419661 s
+Resolviendo... terminada
+Resolucion:   22.046334 s
+Total:        23.465996 s
+Iteraciones:  56626
+Residuo:      9.951477e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 4.038400 s
+Limite de poda:         32.337749 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   1234138
+Construccion: 3.969459 s
+Resolviendo... terminada
+Resolucion:   31.866997 s
+Total:        35.836455 s
+Iteraciones:  45456
+Residuo:      9.977110e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 17.000480 s
+Limite de poda:         32.337749 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   5525922
+Construccion: 45.770279 s
+Resolviendo... terminada
+Resolucion:   139.886072 s
+Total:        185.656351 s
+Iteraciones:  45683
+Residuo:      9.910272e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.2 total=16.168874 s
+Construyendo FSAI q=1... terminada
+nnz factor:   583096
+Construccion: 0.115763 s
+Resolviendo... terminada
+Resolucion:   0.490087 s
+Total:        0.605851 s
+Iteraciones:  1398
+Residuo:      9.772884e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 17.979x
+Construccion estimada:            2.081281 s
+Limite de poda:                    1.211701 s
+PODADO
+
+MEJOR FSAI: q=1 total=0.605851 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.007765 nnz=8965
+tau=0.001000 l=10 tiempo=0.010560 nnz=16389
+tau=0.001000 l=20 tiempo=0.016756 nnz=31112
+tau=0.001000 l=40 tiempo=0.013291 nnz=60081
+tau=0.010000 l=5 tiempo=0.002538 nnz=8943
+tau=0.010000 l=10 tiempo=0.004963 nnz=16248
+tau=0.010000 l=20 tiempo=0.007364 nnz=30341
+tau=0.010000 l=40 tiempo=0.012410 nnz=57440
+tau=0.100000 l=5 tiempo=0.002958 nnz=8555
+tau=0.100000 l=10 tiempo=0.004086 nnz=14937
+tau=0.100000 l=20 tiempo=0.006102 nnz=24984
+tau=0.100000 l=40 tiempo=0.008635 nnz=37022
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   137881
+Construccion: 0.044867 s
+Resolviendo... terminada
+Resolucion:   38.151254 s
+Total:        38.196121 s
+Iteraciones:  205329
+Residuo:      9.989747e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.052290 s
+Limite de poda:         76.392242 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   133070
+Construccion: 0.040407 s
+Resolviendo... terminada
+Resolucion:   24.983040 s
+Total:        25.023447 s
+Iteraciones:  133920
+Residuo:      9.720600e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.070551 s
+Limite de poda:         50.046894 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   235569
+Construccion: 0.063180 s
+Resolviendo... terminada
+Resolucion:   36.333583 s
+Total:        36.396763 s
+Iteraciones:  173350
+Residuo:      9.857677e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.076747 s
+Limite de poda:         50.046894 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   251799
+Construccion: 0.072745 s
+Resolviendo... terminada
+Resolucion:   24.627540 s
+Total:        24.700285 s
+Iteraciones:  116918
+Residuo:      9.842435e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.111858 s
+Limite de poda:         49.400570 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   414310
+Construccion: 0.101177 s
+Resolviendo... terminada
+Resolucion:   44.227860 s
+Total:        44.329037 s
+Iteraciones:  163820
+Residuo:      9.716950e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.122871 s
+Limite de poda:         49.400570 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   476743
+Construccion: 0.126142 s
+Resolviendo... terminada
+Resolucion:   45.462412 s
+Total:        45.588554 s
+Iteraciones:  152685
+Residuo:      9.934064e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.133015 s
+Limite de poda:         49.400570 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   138246
+Construccion: 0.046227 s
+Resolviendo... terminada
+Resolucion:   24.065584 s
+Total:        24.111811 s
+Iteraciones:  129692
+Residuo:      9.790238e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.190899 s
+Limite de poda:         48.223622 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   667143
+Construccion: 0.156859 s
+Resolviendo... terminada
+Resolucion:   63.168769 s
+Total:        63.325629 s
+Iteraciones:  156193
+Residuo:      9.781078e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.191832 s
+Limite de poda:         48.223622 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   253300
+Construccion: 0.073866 s
+Resolviendo... terminada
+Resolucion:   26.627504 s
+Total:        26.701371 s
+Iteraciones:  125949
+Residuo:      9.812980e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.258886 s
+Limite de poda:         48.223622 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   915466
+Construccion: 0.239779 s
+Resolviendo... terminada
+Resolucion:   94.331754 s
+Total:        94.571534 s
+Iteraciones:  176947
+Residuo:      9.923793e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.256807 s
+Limite de poda:         48.223622 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   940001
+Construccion: 0.247908 s
+Resolviendo... terminada
+Resolucion:   77.356443 s
+Total:        77.604351 s
+Iteraciones:  141505
+Residuo:      9.872124e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.312535 s
+Limite de poda:         48.223622 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   482917
+Construccion: 0.130245 s
+Resolviendo... terminada
+Resolucion:   43.982564 s
+Total:        44.112809 s
+Iteraciones:  145670
+Residuo:      9.928856e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.001;l=5 total=24.111811 s
+
+Matriz bcsstk36 terminada.
+
+############################################################
+MATRIZ 5/20: vanbody
+############################################################
+n:      47072
+nnz(A): 2329056
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=1.492093 nnz=252469
+tau=0.050000 tiempo=0.189033 nnz=60446
+tau=0.100000 tiempo=0.073805 nnz=31215
+tau=0.200000 tiempo=0.022846 nnz=14171
+tau=0.500000 tiempo=0.008137 nnz=6154
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   2694572
+Construccion: 116.481595 s
+Resolviendo... terminada
+Resolucion:   471.080648 s
+Total:        587.562244 s
+Iteraciones:  246771
+Residuo:      9.994130e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 327.030447 s
+Limite de poda:         1175.124487 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   574828
+Construccion: 1.478724 s
+Resolviendo... terminada
+Resolucion:   6.303998 s
+Total:        7.782722 s
+Iteraciones:  8491
+Residuo:      9.954390e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 4.776992 s
+Limite de poda:         15.565444 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   1211634
+Construccion: 4.544792 s
+Resolviendo... terminada
+Resolucion:   8.588839 s
+Total:        13.133631 s
+Iteraciones:  8048
+Residuo:      8.209822e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 11.640332 s
+Limite de poda:         15.565444 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   2477986
+Construccion: 12.517464 s
+Resolviendo... terminada
+Resolucion:   18.549985 s
+Total:        31.067450 s
+Iteraciones:  10516
+Residuo:      9.969526e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 98.804169 s
+Limite de poda:         15.565444 s
+PODADO
+
+MEJOR SAINV: tau=0.2 total=7.782722 s
+Construyendo FSAI q=1... terminada
+nnz factor:   1188064
+Construccion: 0.244774 s
+Resolviendo... terminada
+Resolucion:   4.178439 s
+Total:        4.423213 s
+Iteraciones:  4028
+Residuo:      8.372314e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 11.121x
+Construccion estimada:            2.722161 s
+Limite de poda:                    8.846426 s
+Construyendo FSAI q=2... terminada
+nnz factor:   3881603
+Construccion: 2.712684 s
+Resolviendo... terminada
+Resolucion:   5.312647 s
+Total:        8.025332 s
+Iteraciones:  2104
+Residuo:      9.352910e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 7.331x
+Construccion estimada:            19.885593 s
+Limite de poda:                    8.846426 s
+PODADO
+
+MEJOR FSAI: q=1 total=4.423213 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.003344 nnz=8978
+tau=0.001000 l=10 tiempo=0.005303 nnz=16399
+tau=0.001000 l=20 tiempo=0.008777 nnz=31109
+tau=0.001000 l=40 tiempo=0.015897 nnz=59987
+tau=0.010000 l=5 tiempo=0.003432 nnz=8916
+tau=0.010000 l=10 tiempo=0.005565 nnz=16227
+tau=0.010000 l=20 tiempo=0.008713 nnz=30621
+tau=0.010000 l=40 tiempo=0.014533 nnz=57932
+tau=0.100000 l=5 tiempo=0.002981 nnz=8552
+tau=0.100000 l=10 tiempo=0.004667 nnz=14453
+tau=0.100000 l=20 tiempo=0.006888 nnz=23370
+tau=0.100000 l=40 tiempo=0.009127 nnz=32771
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   269298
+Construccion: 0.083769 s
+Resolviendo... terminada
+Resolucion:   19.721935 s
+Total:        19.805704 s
+Iteraciones:  33206
+Residuo:      9.722898e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.093949 s
+Limite de poda:         39.611409 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   282098
+Construccion: 0.098607 s
+Resolviendo... terminada
+Resolucion:   19.828146 s
+Total:        19.926752 s
+Iteraciones:  33123
+Residuo:      9.630676e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.101195 s
+Limite de poda:         39.611409 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   280851
+Construccion: 0.095146 s
+Resolviendo... terminada
+Resolucion:   15.382165 s
+Total:        15.477311 s
+Iteraciones:  25703
+Residuo:      9.963323e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.154233 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   465819
+Construccion: 0.129968 s
+Resolviendo... terminada
+Resolucion:   24.275614 s
+Total:        24.405583 s
+Iteraciones:  35394
+Residuo:      9.886275e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.147672 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   516599
+Construccion: 0.162206 s
+Resolviendo... terminada
+Resolucion:   28.518701 s
+Total:        28.680906 s
+Iteraciones:  40128
+Residuo:      8.837828e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.170208 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   512320
+Construccion: 0.156969 s
+Resolviendo... terminada
+Resolucion:   23.555850 s
+Total:        23.712819 s
+Iteraciones:  33261
+Residuo:      8.784593e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.226065 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   777522
+Construccion: 0.202072 s
+Resolviendo... terminada
+Resolucion:   29.883052 s
+Total:        30.085125 s
+Iteraciones:  35637
+Residuo:      9.477891e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.264769 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   968655
+Construccion: 0.271688 s
+Resolviendo... terminada
+Resolucion:   33.389431 s
+Total:        33.661119 s
+Iteraciones:  35711
+Residuo:      9.601684e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.276018 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   984630
+Construccion: 0.285626 s
+Resolviendo... terminada
+Resolucion:   30.456233 s
+Total:        30.741859 s
+Iteraciones:  32286
+Residuo:      9.095266e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.300886 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   1162807
+Construccion: 0.290477 s
+Resolviendo... terminada
+Resolucion:   38.805322 s
+Total:        39.095799 s
+Iteraciones:  37315
+Residuo:      9.333650e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.513500 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   1851712
+Construccion: 0.500572 s
+Resolviendo... terminada
+Resolucion:   47.139590 s
+Total:        47.640161 s
+Iteraciones:  33255
+Residuo:      9.874118e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.547555 s
+Limite de poda:         30.954622 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   1916415
+Construccion: 0.547841 s
+Resolviendo... terminada
+Resolucion:   44.126127 s
+Total:        44.673968 s
+Iteraciones:  30361
+Residuo:      9.049807e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.01;l=5 total=15.477311 s
+
+Matriz vanbody terminada.
+
+############################################################
+MATRIZ 6/20: crankseg_1
+############################################################
+n:      52804
+nnz(A): 10614210
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.124923 nnz=52914
+tau=0.050000 tiempo=0.016639 nnz=13218
+tau=0.100000 tiempo=0.006380 nnz=6714
+tau=0.200000 tiempo=0.002998 nnz=3649
+tau=0.500000 tiempo=0.001406 nnz=1646
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   106919
+Construccion: 0.375823 s
+Resolviendo... terminada
+Resolucion:   1.316467 s
+Total:        1.692290 s
+Iteraciones:  470
+Residuo:      9.982356e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.833158 s
+Limite de poda:         3.384579 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   320634
+Construccion: 2.891131 s
+Resolviendo... terminada
+Resolucion:   0.992350 s
+Total:        3.883481 s
+Iteraciones:  340
+Residuo:      8.950649e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 6.151297 s
+Limite de poda:         3.384579 s
+PODADO
+
+SAINV tau=0.050000
+Construccion estimada: 16.044023 s
+Limite de poda:         3.384579 s
+PODADO
+
+SAINV tau=0.010000
+Construccion estimada: 120.453570 s
+Limite de poda:         3.384579 s
+PODADO
+
+MEJOR SAINV: tau=0.5 total=1.692290 s
+Construyendo FSAI q=1... terminada
+nnz factor:   5333507
+Construccion: 6.226251 s
+Resolviendo... terminada
+Resolucion:   1.147610 s
+Total:        7.373861 s
+Iteraciones:  203
+Residuo:      8.952568e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 349.315x
+Construccion estimada:            2174.921788 s
+Limite de poda:                    14.747722 s
+PODADO
+
+MEJOR FSAI: q=1 total=7.373861 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.004800 nnz=8900
+tau=0.001000 l=10 tiempo=0.007038 nnz=16148
+tau=0.001000 l=20 tiempo=0.010943 nnz=30231
+tau=0.001000 l=40 tiempo=0.018114 nnz=57163
+tau=0.010000 l=5 tiempo=0.004400 nnz=8847
+tau=0.010000 l=10 tiempo=0.006760 nnz=15873
+tau=0.010000 l=20 tiempo=0.009614 nnz=28875
+tau=0.010000 l=40 tiempo=0.015034 nnz=48137
+tau=0.100000 l=5 tiempo=0.003182 nnz=6693
+tau=0.100000 l=10 tiempo=0.003472 nnz=7828
+tau=0.100000 l=20 tiempo=0.003425 nnz=7989
+tau=0.100000 l=40 tiempo=0.003552 nnz=7989
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   299180
+Construccion: 0.380102 s
+Resolviendo... terminada
+Resolucion:   42.740201 s
+Total:        43.120304 s
+Iteraciones:  14878
+Residuo:      9.928239e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.453704 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   817582
+Construccion: 1.026480 s
+Resolviendo... terminada
+Resolucion:   105.180842 s
+Total:        106.207322 s
+Iteraciones:  33406
+Residuo:      9.976788e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 1.040597 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   498099
+Construccion: 0.626528 s
+Resolviendo... terminada
+Resolucion:   72.462743 s
+Total:        73.089271 s
+Iteraciones:  24362
+Residuo:      9.997435e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.640944 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   1301840
+Construccion: 1.729404 s
+Resolviendo... terminada
+Resolucion:   159.574184 s
+Total:        161.303588 s
+Iteraciones:  46764
+Residuo:      9.988125e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 2.142309 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   316467
+Construccion: 0.533104 s
+Resolviendo... terminada
+Resolucion:   45.156442 s
+Total:        45.689546 s
+Iteraciones:  15687
+Residuo:      9.874772e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.581565 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   316606
+Construccion: 0.583508 s
+Resolviendo... terminada
+Resolucion:   51.116684 s
+Total:        51.700192 s
+Iteraciones:  17752
+Residuo:      9.989130e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 1.040677 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   579016
+Construccion: 0.957422 s
+Resolviendo... terminada
+Resolucion:   91.182733 s
+Total:        92.140156 s
+Iteraciones:  30233
+Residuo:      9.984425e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.996818 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   580079
+Construccion: 1.069133 s
+Resolviendo... terminada
+Resolucion:   80.806760 s
+Total:        81.875893 s
+Iteraciones:  26785
+Residuo:      9.865293e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 1.911767 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   1098819
+Construccion: 1.834253 s
+Resolviendo... terminada
+Resolucion:   136.136187 s
+Total:        137.970439 s
+Iteraciones:  41266
+Residuo:      9.987197e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 2.087643 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   1105991
+Construccion: 2.058301 s
+Resolviendo... terminada
+Resolucion:   128.622468 s
+Total:        130.680770 s
+Iteraciones:  38941
+Residuo:      9.990812e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 3.277446 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   2107358
+Construccion: 3.789191 s
+Resolviendo... terminada
+Resolucion:   227.428356 s
+Total:        231.217547 s
+Iteraciones:  58989
+Residuo:      9.968415e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 4.565518 s
+Limite de poda:         86.240607 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   2154397
+Construccion: 4.257140 s
+Resolviendo... terminada
+Resolucion:   236.363146 s
+Total:        240.620286 s
+Iteraciones:  60897
+Residuo:      9.971250e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=5 total=43.120304 s
+
+Matriz crankseg_1 terminada.
+
+############################################################
+MATRIZ 7/20: oilpan
+############################################################
+n:      73752
+nnz(A): 2148558
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.195453 nnz=83769
+tau=0.050000 tiempo=0.019503 nnz=18868
+tau=0.100000 tiempo=0.007040 nnz=9231
+tau=0.200000 tiempo=0.003093 nnz=4737
+tau=0.500000 tiempo=0.001141 nnz=2256
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   92969
+Construccion: 0.034952 s
+Resolviendo... terminada
+Resolucion:   2.324546 s
+Total:        2.359499 s
+Iteraciones:  4702
+Residuo:      9.655114e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.094726 s
+Limite de poda:         4.718997 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   240658
+Construccion: 0.146613 s
+Resolviendo... terminada
+Resolucion:   5.509660 s
+Total:        5.656273 s
+Iteraciones:  9393
+Residuo:      9.143323e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.333772 s
+Limite de poda:         4.718997 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   538582
+Construccion: 0.423651 s
+Resolviendo... terminada
+Resolucion:   4.986992 s
+Total:        5.410643 s
+Iteraciones:  6855
+Residuo:      9.909771e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 1.173593 s
+Limite de poda:         4.718997 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   1162287
+Construccion: 1.316077 s
+Resolviendo... terminada
+Resolucion:   5.482237 s
+Total:        6.798314 s
+Iteraciones:  5224
+Residuo:      9.912013e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 13.189035 s
+Limite de poda:         4.718997 s
+PODADO
+
+MEJOR SAINV: tau=0.5 total=2.359499 s
+Construyendo FSAI q=1... terminada
+nnz factor:   1111155
+Construccion: 0.169751 s
+Resolviendo... terminada
+Resolucion:   1.416404 s
+Total:        1.586155 s
+Iteraciones:  1415
+Residuo:      9.645955e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 19.782x
+Construccion estimada:            3.357937 s
+Limite de poda:                    3.172310 s
+PODADO
+
+MEJOR FSAI: q=1 total=1.586155 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.006420 nnz=6837
+tau=0.001000 l=10 tiempo=0.009934 nnz=12150
+tau=0.001000 l=20 tiempo=0.017586 nnz=22690
+tau=0.001000 l=40 tiempo=0.010759 nnz=43023
+tau=0.010000 l=5 tiempo=0.002756 nnz=6820
+tau=0.010000 l=10 tiempo=0.004067 nnz=12035
+tau=0.010000 l=20 tiempo=0.006340 nnz=22019
+tau=0.010000 l=40 tiempo=0.010582 nnz=40628
+tau=0.100000 l=5 tiempo=0.002001 nnz=6437
+tau=0.100000 l=10 tiempo=0.002715 nnz=9522
+tau=0.100000 l=20 tiempo=0.003382 nnz=12320
+tau=0.100000 l=40 tiempo=0.003655 nnz=14024
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   353055
+Construccion: 0.090255 s
+Resolviendo... terminada
+Resolucion:   13.394734 s
+Total:        13.484989 s
+Iteraciones:  21050
+Residuo:      9.497990e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.133511 s
+Limite de poda:         26.969977 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   575115
+Construccion: 0.134005 s
+Resolviendo... terminada
+Resolucion:   11.503725 s
+Total:        11.637730 s
+Iteraciones:  15461
+Residuo:      9.841987e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.136007 s
+Limite de poda:         23.275461 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   355187
+Construccion: 0.110226 s
+Resolviendo... terminada
+Resolucion:   11.775409 s
+Total:        11.885636 s
+Iteraciones:  18498
+Residuo:      9.763445e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.199118 s
+Limite de poda:         23.275461 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   712973
+Construccion: 0.151788 s
+Resolviendo... terminada
+Resolucion:   11.121217 s
+Total:        11.273004 s
+Iteraciones:  13665
+Residuo:      9.648347e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.172782 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   743243
+Construccion: 0.155498 s
+Resolviendo... terminada
+Resolucion:   13.917666 s
+Total:        14.073164 s
+Iteraciones:  16798
+Residuo:      9.594401e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.172999 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   636517
+Construccion: 0.187636 s
+Resolviendo... terminada
+Resolucion:   13.043342 s
+Total:        13.230978 s
+Iteraciones:  16889
+Residuo:      9.937109e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.343294 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   1198723
+Construccion: 0.310919 s
+Resolviendo... terminada
+Resolucion:   13.272865 s
+Total:        13.583784 s
+Iteraciones:  12437
+Residuo:      9.296431e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.314844 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   355204
+Construccion: 0.113151 s
+Resolviendo... terminada
+Resolucion:   12.351031 s
+Total:        12.464182 s
+Iteraciones:  19421
+Residuo:      9.981551e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.201080 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   636632
+Construccion: 0.192927 s
+Resolviendo... terminada
+Resolucion:   12.067531 s
+Total:        12.260458 s
+Iteraciones:  15625
+Residuo:      9.871527e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.645121 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   2319408
+Construccion: 0.541776 s
+Resolviendo... terminada
+Resolucion:   19.772842 s
+Total:        20.314619 s
+Iteraciones:  11716
+Residuo:      9.777607e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.573714 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   2324195
+Construccion: 0.574632 s
+Resolviendo... terminada
+Resolucion:   23.100461 s
+Total:        23.675093 s
+Iteraciones:  13665
+Residuo:      9.883706e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.939252 s
+Limite de poda:         22.546008 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   1199402
+Construccion: 0.326949 s
+Resolviendo... terminada
+Resolucion:   13.176605 s
+Total:        13.503553 s
+Iteraciones:  12344
+Residuo:      9.540068e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=20 total=11.273004 s
+
+Matriz oilpan terminada.
+
+############################################################
+MATRIZ 8/20: apache1
+############################################################
+n:      80800
+nnz(A): 542184
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.009050 nnz=33356
+tau=0.050000 tiempo=0.001997 nnz=10630
+tau=0.100000 tiempo=0.001127 nnz=7252
+tau=0.200000 tiempo=0.000813 nnz=5145
+tau=0.500000 tiempo=0.000421 nnz=2379
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   141400
+Construccion: 0.022595 s
+Resolviendo... terminada
+Resolucion:   0.022432 s
+Total:        0.045027 s
+Iteraciones:  98
+Residuo:      8.038251e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.048866 s
+Limite de poda:         0.090055 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   204520
+Construccion: 0.032862 s
+Resolviendo... terminada
+Resolucion:   0.116438 s
+Total:        0.149300 s
+Iteraciones:  573
+Residuo:      9.754959e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.046320 s
+Limite de poda:         0.090055 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   502995
+Construccion: 0.054457 s
+Resolviendo... terminada
+Resolucion:   0.103666 s
+Total:        0.158123 s
+Iteraciones:  357
+Residuo:      9.666639e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.096476 s
+Limite de poda:         0.090055 s
+PODADO
+
+SAINV tau=0.010000
+Construccion estimada: 0.437204 s
+Limite de poda:         0.090055 s
+PODADO
+
+MEJOR SAINV: tau=0.5 total=0.045027 s
+Construyendo FSAI q=1... terminada
+nnz factor:   311492
+Construccion: 0.021830 s
+Resolviendo... terminada
+Resolucion:   0.256750 s
+Total:        0.278580 s
+Iteraciones:  1249
+Residuo:      7.875213e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 29.853x
+Construccion estimada:            0.651684 s
+Limite de poda:                    0.557161 s
+PODADO
+
+MEJOR FSAI: q=1 total=0.278580 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.001757 nnz=8791
+tau=0.001000 l=10 tiempo=0.001676 nnz=15772
+tau=0.001000 l=20 tiempo=0.003076 nnz=28861
+tau=0.001000 l=40 tiempo=0.005259 nnz=47557
+tau=0.010000 l=5 tiempo=0.001146 nnz=8689
+tau=0.010000 l=10 tiempo=0.001624 nnz=14655
+tau=0.010000 l=20 tiempo=0.002162 nnz=21459
+tau=0.010000 l=40 tiempo=0.003158 nnz=31969
+tau=0.100000 l=5 tiempo=0.000977 nnz=6672
+tau=0.100000 l=10 tiempo=0.001008 nnz=8046
+tau=0.100000 l=20 tiempo=0.000955 nnz=8048
+tau=0.100000 l=40 tiempo=0.000961 nnz=8048
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   484693
+Construccion: 0.038521 s
+Resolviendo... terminada
+Resolucion:   0.102709 s
+Total:        0.141230 s
+Iteraciones:  365
+Residuo:      9.066627e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.038769 s
+Limite de poda:         0.282459 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   484693
+Construccion: 0.038158 s
+Resolviendo... terminada
+Resolucion:   0.102518 s
+Total:        0.140676 s
+Iteraciones:  365
+Residuo:      9.087032e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.038821 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   373495
+Construccion: 0.033230 s
+Resolviendo... terminada
+Resolucion:   0.149222 s
+Total:        0.182452 s
+Iteraciones:  633
+Residuo:      9.758105e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.040073 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   484691
+Construccion: 0.038711 s
+Resolviendo... terminada
+Resolucion:   0.102349 s
+Total:        0.141061 s
+Iteraciones:  362
+Residuo:      9.993943e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.044041 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   484489
+Construccion: 0.041158 s
+Resolviendo... terminada
+Resolucion:   0.151524 s
+Total:        0.192681 s
+Iteraciones:  552
+Residuo:      9.798612e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.069417 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   886955
+Construccion: 0.062293 s
+Resolviendo... terminada
+Resolucion:   0.163533 s
+Total:        0.225826 s
+Iteraciones:  328
+Residuo:      9.037951e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.067041 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   888072
+Construccion: 0.062081 s
+Resolviendo... terminada
+Resolucion:   0.164706 s
+Total:        0.226787 s
+Iteraciones:  328
+Residuo:      8.663270e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.065090 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   484591
+Construccion: 0.041576 s
+Resolviendo... terminada
+Resolucion:   0.150955 s
+Total:        0.192532 s
+Iteraciones:  552
+Residuo:      9.865264e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.101489 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   1658612
+Construccion: 0.103879 s
+Resolviendo... terminada
+Resolucion:   0.239228 s
+Total:        0.343107 s
+Iteraciones:  258
+Residuo:      7.431771e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.147774 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   1694161
+Construccion: 0.109629 s
+Resolviendo... terminada
+Resolucion:   0.251273 s
+Total:        0.360901 s
+Iteraciones:  268
+Residuo:      9.663420e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.121434 s
+Limite de poda:         0.281352 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   2934148
+Construccion: 0.190183 s
+Resolviendo... terminada
+Resolucion:   0.386823 s
+Total:        0.577006 s
+Iteraciones:  238
+Residuo:      9.542563e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.316656 s
+Limite de poda:         0.281352 s
+PODADO
+
+MEJOR AIB: tau=0.1;l=40 total=0.140676 s
+
+Matriz apache1 terminada.
+
+############################################################
+MATRIZ 9/20: thermal1
+############################################################
+n:      82654
+nnz(A): 574458
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.014025 nnz=32399
+tau=0.050000 tiempo=0.003370 nnz=10233
+tau=0.100000 tiempo=0.001763 nnz=5963
+tau=0.200000 tiempo=0.001066 nnz=3536
+tau=0.500000 tiempo=0.000403 nnz=1517
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   83098
+Construccion: 0.022809 s
+Resolviendo... terminada
+Resolucion:   0.306879 s
+Total:        0.329688 s
+Iteraciones:  1452
+Residuo:      9.925096e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.060364 s
+Limite de poda:         0.659375 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   206814
+Construccion: 0.058323 s
+Resolviendo... terminada
+Resolucion:   0.291266 s
+Total:        0.349590 s
+Iteraciones:  930
+Residuo:      9.828883e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.098355 s
+Limite de poda:         0.659375 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   359572
+Construccion: 0.119372 s
+Resolviendo... terminada
+Resolucion:   0.235800 s
+Total:        0.355171 s
+Iteraciones:  656
+Residuo:      9.074335e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.228205 s
+Limite de poda:         0.659375 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   642859
+Construccion: 0.201718 s
+Resolviendo... terminada
+Resolucion:   0.210418 s
+Total:        0.412136 s
+Iteraciones:  480
+Residuo:      9.052697e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 0.839557 s
+Limite de poda:         0.659375 s
+PODADO
+
+MEJOR SAINV: tau=0.5 total=0.329688 s
+Construyendo FSAI q=1... terminada
+nnz factor:   328556
+Construccion: 0.035676 s
+Resolviendo... terminada
+Resolucion:   0.243628 s
+Total:        0.279304 s
+Iteraciones:  732
+Residuo:      9.624782e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 13.917x
+Construccion estimada:            0.496493 s
+Limite de poda:                    0.558607 s
+Construyendo FSAI q=2... terminada
+nnz factor:   742574
+Construccion: 0.098426 s
+Resolviendo... terminada
+Resolucion:   0.220161 s
+Total:        0.318588 s
+Iteraciones:  484
+Residuo:      8.960651e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 6.423x
+Construccion estimada:            0.632161 s
+Limite de poda:                    0.558607 s
+PODADO
+
+MEJOR FSAI: q=1 total=0.279304 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.002948 nnz=7283
+tau=0.001000 l=10 tiempo=0.002251 nnz=13018
+tau=0.001000 l=20 tiempo=0.003460 nnz=24253
+tau=0.001000 l=40 tiempo=0.005729 nnz=44670
+tau=0.010000 l=5 tiempo=0.001741 nnz=7171
+tau=0.010000 l=10 tiempo=0.002216 nnz=12478
+tau=0.010000 l=20 tiempo=0.003336 nnz=21450
+tau=0.010000 l=40 tiempo=0.004377 nnz=32635
+tau=0.100000 l=5 tiempo=0.001442 nnz=5953
+tau=0.100000 l=10 tiempo=0.001558 nnz=7369
+tau=0.100000 l=20 tiempo=0.001427 nnz=7568
+tau=0.100000 l=40 tiempo=0.001442 nnz=7568
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   458859
+Construccion: 0.070971 s
+Resolviendo... terminada
+Resolucion:   0.217676 s
+Total:        0.288647 s
+Iteraciones:  563
+Residuo:      9.958541e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.071738 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   346161
+Construccion: 0.067206 s
+Resolviendo... terminada
+Resolucion:   0.241073 s
+Total:        0.308279 s
+Iteraciones:  713
+Residuo:      9.990287e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.085439 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   458873
+Construccion: 0.071706 s
+Resolviendo... terminada
+Resolucion:   0.221151 s
+Total:        0.292857 s
+Iteraciones:  563
+Residuo:      9.965653e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.077450 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   441390
+Construccion: 0.071837 s
+Resolviendo... terminada
+Resolucion:   0.226501 s
+Total:        0.298338 s
+Iteraciones:  599
+Residuo:      9.661232e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.080284 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   411883
+Construccion: 0.076558 s
+Resolviendo... terminada
+Resolucion:   0.236544 s
+Total:        0.313101 s
+Iteraciones:  693
+Residuo:      9.987529e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.133215 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   718058
+Construccion: 0.108050 s
+Resolviendo... terminada
+Resolucion:   0.242406 s
+Total:        0.350456 s
+Iteraciones:  538
+Residuo:      9.574649e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.112726 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   749741
+Construccion: 0.115367 s
+Resolviendo... terminada
+Resolucion:   0.250912 s
+Total:        0.366280 s
+Iteraciones:  537
+Residuo:      9.921288e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.151107 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   419505
+Construccion: 0.077954 s
+Resolviendo... terminada
+Resolucion:   0.235195 s
+Total:        0.313149 s
+Iteraciones:  694
+Residuo:      9.753485e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.229591 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   1254699
+Construccion: 0.158152 s
+Resolviendo... terminada
+Resolucion:   0.290902 s
+Total:        0.449054 s
+Iteraciones:  403
+Residuo:      9.854635e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.178818 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   1394963
+Construccion: 0.171650 s
+Resolviendo... terminada
+Resolucion:   0.321698 s
+Total:        0.493347 s
+Iteraciones:  403
+Residuo:      9.335611e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.230973 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   2030781
+Construccion: 0.216681 s
+Resolviendo... terminada
+Resolucion:   0.347812 s
+Total:        0.564493 s
+Iteraciones:  301
+Residuo:      8.476090e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.296588 s
+Limite de poda:         0.577294 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   2602972
+Construccion: 0.276223 s
+Resolviendo... terminada
+Resolucion:   0.442919 s
+Total:        0.719143 s
+Iteraciones:  301
+Residuo:      9.913887e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=20 total=0.288647 s
+
+Matriz thermal1 terminada.
+
+############################################################
+MATRIZ 10/20: s3dkt3m2
+############################################################
+n:      90449
+nnz(A): 3686223
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.119868 nnz=79203
+tau=0.050000 tiempo=0.044237 nnz=45881
+tau=0.100000 tiempo=0.023873 nnz=33964
+tau=0.200000 tiempo=0.014129 nnz=25781
+tau=0.500000 tiempo=0.006944 nnz=16976
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   2315926
+Construccion: 1.705640 s
+Resolviendo... terminada
+Resolucion:   47.877530 s
+Total:        49.583171 s
+Iteraciones:  22276
+Residuo:      9.949969e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 3.470727 s
+Limite de poda:         99.166342 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   6663453
+Construccion: 12.653333 s
+Resolviendo... terminada
+Resolucion:   94.608129 s
+Total:        107.261462 s
+Iteraciones:  20791
+Residuo:      9.885397e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 21.379264 s
+Limite de poda:         99.166342 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   11082864
+Construccion: 28.435931 s
+Resolviendo... terminada
+Resolucion:   88.083401 s
+Total:        116.519332 s
+Iteraciones:  12604
+Residuo:      9.868371e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 52.691901 s
+Limite de poda:         99.166342 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   17232419
+Construccion: 50.755397 s
+Resolviendo... terminada
+Resolucion:   89.476252 s
+Total:        140.231649 s
+Iteraciones:  8610
+Residuo:      9.932256e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 137.530953 s
+Limite de poda:         99.166342 s
+PODADO
+
+MEJOR SAINV: tau=0.5 total=49.583171 s
+Construyendo FSAI q=1... terminada
+nnz factor:   1888336
+Construccion: 0.262626 s
+Resolviendo... terminada
+Resolucion:   7.163341 s
+Total:        7.425967 s
+Iteraciones:  3790
+Residuo:      9.861347e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 18.411x
+Construccion estimada:            4.835254 s
+Limite de poda:                    14.851934 s
+Construyendo FSAI q=2... terminada
+nnz factor:   5103211
+Construccion: 1.588509 s
+Resolviendo... terminada
+Resolucion:   8.261707 s
+Total:        9.850216 s
+Iteraciones:  2252
+Residuo:      9.490110e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 6.985x
+Construccion estimada:            11.096126 s
+Limite de poda:                    14.851934 s
+Construyendo FSAI q=3... terminada
+nnz factor:   9823198
+Construccion: 7.492593 s
+Resolviendo... terminada
+Resolucion:   10.627905 s
+Total:        18.120497 s
+Iteraciones:  1693
+Residuo:      9.271459e-11
+Convergio:    Si
+
+MEJOR FSAI: q=1 total=7.425967 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.001801 nnz=8977
+tau=0.001000 l=10 tiempo=0.002629 nnz=16027
+tau=0.001000 l=20 tiempo=0.005860 nnz=28461
+tau=0.001000 l=40 tiempo=0.008174 nnz=49264
+tau=0.010000 l=5 tiempo=0.001868 nnz=8665
+tau=0.010000 l=10 tiempo=0.002654 nnz=14466
+tau=0.010000 l=20 tiempo=0.004099 nnz=22143
+tau=0.010000 l=40 tiempo=0.006443 nnz=34869
+tau=0.100000 l=5 tiempo=0.001574 nnz=6391
+tau=0.100000 l=10 tiempo=0.001959 nnz=9763
+tau=0.100000 l=20 tiempo=0.003435 nnz=15903
+tau=0.100000 l=40 tiempo=0.004617 nnz=26445
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   386039
+Construccion: 0.066648 s
+Resolviendo... terminada
+Resolucion:   53.106928 s
+Total:        53.173576 s
+Iteraciones:  48567
+Residuo:      9.909823e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.093616 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   542671
+Construccion: 0.090976 s
+Resolviendo... terminada
+Resolucion:   57.393235 s
+Total:        57.484211 s
+Iteraciones:  49033
+Residuo:      9.820671e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.094332 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   542341
+Construccion: 0.091008 s
+Resolviendo... terminada
+Resolucion:   57.389238 s
+Total:        57.480246 s
+Iteraciones:  49044
+Residuo:      9.694354e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.102540 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   608528
+Construccion: 0.092792 s
+Resolviendo... terminada
+Resolucion:   58.200903 s
+Total:        58.293695 s
+Iteraciones:  48284
+Residuo:      9.933618e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.152328 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   994466
+Construccion: 0.141649 s
+Resolviendo... terminada
+Resolucion:   67.825193 s
+Total:        67.966842 s
+Iteraciones:  47975
+Residuo:      9.998053e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.143016 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   989833
+Construccion: 0.141730 s
+Resolviendo... terminada
+Resolucion:   67.413556 s
+Total:        67.555286 s
+Iteraciones:  47764
+Residuo:      9.853958e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.183435 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   1061443
+Construccion: 0.171976 s
+Resolviendo... terminada
+Resolucion:   64.860066 s
+Total:        65.032042 s
+Iteraciones:  44642
+Residuo:      9.874266e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.239456 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   1651102
+Construccion: 0.223597 s
+Resolviendo... terminada
+Resolucion:   84.034009 s
+Total:        84.257606 s
+Iteraciones:  47246
+Residuo:      9.977320e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.267038 s
+Limite de poda:         106.347152 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   1965009
+Construccion: 0.367990 s
+Resolviendo... terminada
+Resolucion:   51.295411 s
+Total:        51.663400 s
+Iteraciones:  26248
+Residuo:      9.835721e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.467072 s
+Limite de poda:         103.326800 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   1895681
+Construccion: 0.273824 s
+Resolviendo... terminada
+Resolucion:   94.224079 s
+Total:        94.497903 s
+Iteraciones:  49217
+Residuo:      9.892681e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.335475 s
+Limite de poda:         103.326800 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   2658361
+Construccion: 0.431128 s
+Resolviendo... terminada
+Resolucion:   51.759665 s
+Total:        52.190793 s
+Iteraciones:  22142
+Residuo:      9.934146e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.609111 s
+Limite de poda:         103.326800 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   3672085
+Construccion: 0.631493 s
+Resolviendo... terminada
+Resolucion:   74.033377 s
+Total:        74.664870 s
+Iteraciones:  25556
+Residuo:      9.598536e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=40 total=51.663400 s
+
+Matriz s3dkt3m2 terminada.
+
+############################################################
+MATRIZ 11/20: G2_circuit
+############################################################
+n:      150102
+nnz(A): 726674
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.000662 nnz=7380
+tau=0.050000 tiempo=0.000399 nnz=5196
+tau=0.100000 tiempo=0.000377 nnz=4464
+tau=0.200000 tiempo=0.000254 nnz=2256
+tau=0.500000 tiempo=0.000223 nnz=2244
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   191648
+Construccion: 0.031820 s
+Resolviendo... terminada
+Resolucion:   0.378381 s
+Total:        0.410200 s
+Iteraciones:  1223
+Residuo:      9.703856e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.036173 s
+Limite de poda:         0.820400 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   486595
+Construccion: 0.054270 s
+Resolviendo... terminada
+Resolucion:   0.329817 s
+Total:        0.384087 s
+Iteraciones:  690
+Residuo:      9.452664e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.107386 s
+Limite de poda:         0.768175 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   754510
+Construccion: 0.081788 s
+Resolviendo... terminada
+Resolucion:   0.397858 s
+Total:        0.479646 s
+Iteraciones:  637
+Residuo:      9.648932e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.095199 s
+Limite de poda:         0.768175 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   1760310
+Construccion: 0.213685 s
+Resolviendo... terminada
+Resolucion:   0.411158 s
+Total:        0.624843 s
+Iteraciones:  346
+Residuo:      9.799729e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 0.354656 s
+Limite de poda:         0.768175 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   9460580
+Construccion: 3.044632 s
+Resolviendo... terminada
+Resolucion:   1.029611 s
+Total:        4.074243 s
+Iteraciones:  188
+Residuo:      6.961518e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.2 total=0.384087 s
+Construyendo FSAI q=1... terminada
+nnz factor:   438388
+Construccion: 0.028028 s
+Resolviendo... terminada
+Resolucion:   0.274154 s
+Total:        0.302182 s
+Iteraciones:  670
+Residuo:      9.689739e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 15.529x
+Construccion estimada:            0.435238 s
+Limite de poda:                    0.604363 s
+Construyendo FSAI q=2... terminada
+nnz factor:   1028927
+Construccion: 0.089495 s
+Resolviendo... terminada
+Resolucion:   0.347372 s
+Total:        0.436868 s
+Iteraciones:  466
+Residuo:      9.707226e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 7.677x
+Construccion estimada:            0.687059 s
+Limite de poda:                    0.604363 s
+PODADO
+
+MEJOR FSAI: q=1 total=0.302182 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.003271 nnz=8820
+tau=0.001000 l=10 tiempo=0.002675 nnz=10248
+tau=0.001000 l=20 tiempo=0.001520 nnz=10248
+tau=0.001000 l=40 tiempo=0.001068 nnz=10248
+tau=0.010000 l=5 tiempo=0.002494 nnz=7380
+tau=0.010000 l=10 tiempo=0.002501 nnz=7380
+tau=0.010000 l=20 tiempo=0.002716 nnz=7380
+tau=0.010000 l=40 tiempo=0.003270 nnz=7380
+tau=0.100000 l=5 tiempo=0.002427 nnz=4464
+tau=0.100000 l=10 tiempo=0.002411 nnz=4464
+tau=0.100000 l=20 tiempo=0.002336 nnz=4464
+tau=0.100000 l=40 tiempo=0.002418 nnz=4464
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   5681567
+Construccion: 0.353733 s
+Resolviendo... terminada
+Resolucion:   0.823317 s
+Total:        1.177050 s
+Iteraciones:  244
+Residuo:      8.209294e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.503336 s
+Limite de poda:         2.354100 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   2955546
+Construccion: 0.186559 s
+Resolviendo... terminada
+Resolucion:   0.621058 s
+Total:        0.807617 s
+Iteraciones:  335
+Residuo:      9.976326e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.286794 s
+Limite de poda:         1.615235 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   885004
+Construccion: 0.069791 s
+Resolviendo... terminada
+Resolucion:   0.394888 s
+Total:        0.464679 s
+Iteraciones:  568
+Residuo:      9.351268e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.072012 s
+Limite de poda:         0.929357 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   877358
+Construccion: 0.071136 s
+Resolviendo... terminada
+Resolucion:   0.397700 s
+Total:        0.468836 s
+Iteraciones:  572
+Residuo:      8.327121e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.071344 s
+Limite de poda:         0.929357 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   885008
+Construccion: 0.068041 s
+Resolviendo... terminada
+Resolucion:   0.394771 s
+Total:        0.462811 s
+Iteraciones:  568
+Residuo:      9.346114e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.068300 s
+Limite de poda:         0.925622 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   750252
+Construccion: 0.066821 s
+Resolviendo... terminada
+Resolucion:   0.383624 s
+Total:        0.450445 s
+Iteraciones:  620
+Residuo:      9.519389e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.110470 s
+Limite de poda:         0.900890 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   875068
+Construccion: 0.091209 s
+Resolviendo... terminada
+Resolucion:   0.410220 s
+Total:        0.501429 s
+Iteraciones:  596
+Residuo:      9.313548e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.091473 s
+Limite de poda:         0.900890 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   1553318
+Construccion: 0.110983 s
+Resolviendo... terminada
+Resolucion:   0.505316 s
+Total:        0.616300 s
+Iteraciones:  471
+Residuo:      8.458939e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.154113 s
+Limite de poda:         0.900890 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   1585621
+Construccion: 0.120946 s
+Resolviendo... terminada
+Resolucion:   0.508012 s
+Total:        0.628958 s
+Iteraciones:  468
+Residuo:      9.767665e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.122796 s
+Limite de poda:         0.900890 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   2833926
+Construccion: 0.175702 s
+Resolviendo... terminada
+Resolucion:   0.594692 s
+Total:        0.770395 s
+Iteraciones:  333
+Residuo:      9.773570e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.211550 s
+Limite de poda:         0.900890 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   5246821
+Construccion: 0.317302 s
+Resolviendo... terminada
+Resolucion:   0.786945 s
+Total:        1.104247 s
+Iteraciones:  251
+Residuo:      8.891661e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.379215 s
+Limite de poda:         0.900890 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   890594
+Construccion: 0.077712 s
+Resolviendo... terminada
+Resolucion:   0.413595 s
+Total:        0.491307 s
+Iteraciones:  595
+Residuo:      9.318709e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=5 total=0.450445 s
+
+Matriz G2_circuit terminada.
+
+############################################################
+MATRIZ 12/20: hood
+############################################################
+n:      220542
+nnz(A): 9895422
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.004357 nnz=7939
+tau=0.050000 tiempo=0.001617 nnz=4129
+tau=0.100000 tiempo=0.000992 nnz=3088
+tau=0.200000 tiempo=0.000551 nnz=2217
+tau=0.500000 tiempo=0.000316 nnz=1515
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   327644
+Construccion: 0.192848 s
+Resolviendo... terminada
+Resolucion:   4.080415 s
+Total:        4.273263 s
+Iteraciones:  1311
+Residuo:      9.913363e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.336374 s
+Limite de poda:         8.546526 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   873546
+Construccion: 1.090611 s
+Resolviendo... terminada
+Resolucion:   5.302619 s
+Total:        6.393230 s
+Iteraciones:  1536
+Residuo:      9.902415e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 1.964307 s
+Limite de poda:         8.546526 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   2037588
+Construccion: 3.342027 s
+Resolviendo... terminada
+Resolucion:   5.293050 s
+Total:        8.635077 s
+Iteraciones:  1294
+Residuo:      9.789863e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 5.447762 s
+Limite de poda:         8.546526 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   4273760
+Construccion: 10.295204 s
+Resolviendo... terminada
+Resolucion:   5.270403 s
+Total:        15.565607 s
+Iteraciones:  988
+Residuo:      9.892222e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 27.734223 s
+Limite de poda:         8.546526 s
+PODADO
+
+MEJOR SAINV: tau=0.5 total=4.273263 s
+Construyendo FSAI q=1... terminada
+nnz factor:   5057982
+Construccion: 1.042493 s
+Resolviendo... terminada
+Resolucion:   1.986727 s
+Total:        3.029220 s
+Iteraciones:  346
+Residuo:      9.845631e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 20.609x
+Construccion estimada:            21.484306 s
+Limite de poda:                    6.058441 s
+PODADO
+
+MEJOR FSAI: q=1 total=3.029220 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.001136 nnz=4794
+tau=0.001000 l=10 tiempo=0.001303 nnz=7265
+tau=0.001000 l=20 tiempo=0.001828 nnz=11172
+tau=0.001000 l=40 tiempo=0.002291 nnz=15564
+tau=0.010000 l=5 tiempo=0.000962 nnz=4249
+tau=0.010000 l=10 tiempo=0.001149 nnz=6008
+tau=0.010000 l=20 tiempo=0.001370 nnz=7786
+tau=0.010000 l=40 tiempo=0.001541 nnz=8787
+tau=0.100000 l=5 tiempo=0.000753 nnz=3135
+tau=0.100000 l=10 tiempo=0.000673 nnz=3311
+tau=0.100000 l=20 tiempo=0.000669 nnz=3311
+tau=0.100000 l=40 tiempo=0.000675 nnz=3311
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   2610787
+Construccion: 0.857909 s
+Resolviendo... terminada
+Resolucion:   108.483165 s
+Total:        109.341074 s
+Iteraciones:  24675
+Residuo:      9.988570e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.862284 s
+Limite de poda:         218.682149 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   1812154
+Construccion: 0.666788 s
+Resolviendo... terminada
+Resolucion:   48.683199 s
+Total:        49.349987 s
+Iteraciones:  12317
+Residuo:      9.734380e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.668941 s
+Limite de poda:         98.699974 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   3196093
+Construccion: 1.020328 s
+Resolviendo... terminada
+Resolucion:   133.986782 s
+Total:        135.007110 s
+Iteraciones:  28335
+Residuo:      9.889190e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 1.138057 s
+Limite de poda:         98.699974 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   1111271
+Construccion: 0.464818 s
+Resolviendo... terminada
+Resolucion:   46.609698 s
+Total:        47.074517 s
+Iteraciones:  13080
+Residuo:      9.961237e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.629988 s
+Limite de poda:         94.149033 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   1182454
+Construccion: 0.582628 s
+Resolviendo... terminada
+Resolucion:   37.299659 s
+Total:        37.882288 s
+Iteraciones:  10356
+Residuo:      9.989822e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.687846 s
+Limite de poda:         75.764575 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   1203333
+Construccion: 0.583401 s
+Resolviendo... terminada
+Resolucion:   40.021658 s
+Total:        40.605058 s
+Iteraciones:  11077
+Residuo:      9.886984e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.731137 s
+Limite de poda:         75.764575 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   2090446
+Construccion: 0.919350 s
+Resolviendo... terminada
+Resolucion:   53.958457 s
+Total:        54.877807 s
+Iteraciones:  13143
+Residuo:      9.984368e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 1.111697 s
+Limite de poda:         75.764575 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   2117527
+Construccion: 0.932884 s
+Resolviendo... terminada
+Resolucion:   55.613750 s
+Total:        56.546635 s
+Iteraciones:  13498
+Residuo:      9.998496e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.999785 s
+Limite de poda:         75.764575 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   3873928
+Construccion: 1.504244 s
+Resolviendo... terminada
+Resolucion:   64.215299 s
+Total:        65.719543 s
+Iteraciones:  12613
+Residuo:      9.996967e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 1.697636 s
+Limite de poda:         75.764575 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   7280382
+Construccion: 2.701943 s
+Resolviendo... terminada
+Resolucion:   136.058851 s
+Total:        138.760795 s
+Iteraciones:  19474
+Residuo:      9.919437e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 3.435315 s
+Limite de poda:         75.764575 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   3921522
+Construccion: 1.586424 s
+Resolviendo... terminada
+Resolucion:   61.698651 s
+Total:        63.285075 s
+Iteraciones:  12049
+Residuo:      9.821029e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 2.210088 s
+Limite de poda:         75.764575 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   7481639
+Construccion: 2.922675 s
+Resolviendo... terminada
+Resolucion:   116.176975 s
+Total:        119.099650 s
+Iteraciones:  16365
+Residuo:      9.982653e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.01;l=5 total=37.882288 s
+
+Matriz hood terminada.
+
+############################################################
+MATRIZ 13/20: parabolic_fem
+############################################################
+n:      525825
+nnz(A): 3674625
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.000324 nnz=1500
+tau=0.050000 tiempo=0.000168 nnz=1500
+tau=0.100000 tiempo=0.000166 nnz=1500
+tau=0.200000 tiempo=0.000165 nnz=1500
+tau=0.500000 tiempo=0.000162 nnz=1500
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   525825
+Construccion: 0.157272 s
+Resolviendo... terminada
+Resolucion:   4.505556 s
+Total:        4.662828 s
+Iteraciones:  1602
+Residuo:      9.840028e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.159740 s
+Limite de poda:         9.325657 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   1575944
+Construccion: 0.350767 s
+Resolviendo... terminada
+Resolucion:   6.123742 s
+Total:        6.474508 s
+Iteraciones:  1741
+Residuo:      9.965744e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.353291 s
+Limite de poda:         9.325657 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   2111873
+Construccion: 0.436011 s
+Resolviendo... terminada
+Resolucion:   5.442961 s
+Total:        5.878972 s
+Iteraciones:  1411
+Residuo:      9.942721e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.440902 s
+Limite de poda:         9.325657 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   4219902
+Construccion: 1.087921 s
+Resolviendo... terminada
+Resolucion:   4.609773 s
+Total:        5.697694 s
+Iteraciones:  903
+Residuo:      9.858611e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 2.098361 s
+Limite de poda:         9.325657 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   12944446
+Construccion: 6.816643 s
+Resolviendo... terminada
+Resolucion:   5.279476 s
+Total:        12.096119 s
+Iteraciones:  525
+Residuo:      9.337270e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.5 total=4.662828 s
+Construyendo FSAI q=1... terminada
+nnz factor:   2100225
+Construccion: 0.155837 s
+Resolviendo... terminada
+Resolucion:   5.540582 s
+Total:        5.696420 s
+Iteraciones:  1507
+Residuo:      9.732878e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 14.581x
+Construccion estimada:            2.272222 s
+Limite de poda:                    11.392840 s
+Construyendo FSAI q=2... terminada
+nnz factor:   4391676
+Construccion: 0.471143 s
+Resolviendo... terminada
+Resolucion:   4.882892 s
+Total:        5.354035 s
+Iteraciones:  968
+Residuo:      9.683799e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 6.577x
+Construccion estimada:            3.098799 s
+Limite de poda:                    10.708070 s
+Construyendo FSAI q=3... terminada
+nnz factor:   7594231
+Construccion: 1.177965 s
+Resolviendo... terminada
+Resolucion:   5.068476 s
+Total:        6.246440 s
+Iteraciones:  738
+Residuo:      9.968073e-11
+Convergio:    Si
+
+MEJOR FSAI: q=2 total=5.354035 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.000254 nnz=1500
+tau=0.001000 l=10 tiempo=0.000200 nnz=1500
+tau=0.001000 l=20 tiempo=0.000216 nnz=1500
+tau=0.001000 l=40 tiempo=0.000217 nnz=1500
+tau=0.010000 l=5 tiempo=0.000202 nnz=1500
+tau=0.010000 l=10 tiempo=0.000206 nnz=1500
+tau=0.010000 l=20 tiempo=0.000203 nnz=1500
+tau=0.010000 l=40 tiempo=0.000215 nnz=1500
+tau=0.100000 l=5 tiempo=0.000201 nnz=1500
+tau=0.100000 l=10 tiempo=0.000207 nnz=1500
+tau=0.100000 l=20 tiempo=0.000200 nnz=1500
+tau=0.100000 l=40 tiempo=0.000205 nnz=1500
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   2469438
+Construccion: 0.315269 s
+Resolviendo... terminada
+Resolucion:   5.276481 s
+Total:        5.591750 s
+Iteraciones:  1295
+Residuo:      9.656238e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.315485 s
+Limite de poda:         11.183500 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   3860507
+Construccion: 0.486517 s
+Resolviendo... terminada
+Resolucion:   5.495393 s
+Total:        5.981910 s
+Iteraciones:  1125
+Residuo:      9.748054e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.486964 s
+Limite de poda:         11.183500 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   1912769
+Construccion: 0.274102 s
+Resolviendo... terminada
+Resolucion:   5.614208 s
+Total:        5.888310 s
+Iteraciones:  1508
+Residuo:      9.916445e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.276430 s
+Limite de poda:         11.183500 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   2298564
+Construccion: 0.325478 s
+Resolviendo... terminada
+Resolucion:   6.401984 s
+Total:        6.727462 s
+Iteraciones:  1620
+Residuo:      9.839205e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.326826 s
+Limite de poda:         11.183500 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   5720958
+Construccion: 0.654409 s
+Resolviendo... terminada
+Resolucion:   5.531104 s
+Total:        6.185513 s
+Iteraciones:  926
+Residuo:      9.991477e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.659821 s
+Limite de poda:         11.183500 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   2469438
+Construccion: 0.310453 s
+Resolviendo... terminada
+Resolucion:   5.274547 s
+Total:        5.584999 s
+Iteraciones:  1295
+Residuo:      9.649637e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.312071 s
+Limite de poda:         11.169999 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   3714565
+Construccion: 0.462948 s
+Resolviendo... terminada
+Resolucion:   5.459624 s
+Total:        5.922571 s
+Iteraciones:  1137
+Residuo:      9.821401e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.465787 s
+Limite de poda:         11.169999 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   2351093
+Construccion: 0.303897 s
+Resolviendo... terminada
+Resolucion:   5.374831 s
+Total:        5.678728 s
+Iteraciones:  1342
+Residuo:      9.953705e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.315959 s
+Limite de poda:         11.169999 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   8367487
+Construccion: 0.930704 s
+Resolviendo... terminada
+Resolucion:   4.638824 s
+Total:        5.569528 s
+Iteraciones:  619
+Residuo:      9.794210e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.931205 s
+Limite de poda:         11.139056 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   6565296
+Construccion: 0.804346 s
+Resolviendo... terminada
+Resolucion:   5.792902 s
+Total:        6.597249 s
+Iteraciones:  897
+Residuo:      9.885409e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 0.809258 s
+Limite de poda:         11.139056 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   10685608
+Construccion: 1.362402 s
+Resolviendo... terminada
+Resolucion:   5.436362 s
+Total:        6.798764 s
+Iteraciones:  619
+Residuo:      9.963898e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 1.597087 s
+Limite de poda:         11.139056 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   2304673
+Construccion: 0.324099 s
+Resolviendo... terminada
+Resolucion:   6.422581 s
+Total:        6.746680 s
+Iteraciones:  1620
+Residuo:      9.822113e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.01;l=40 total=5.569528 s
+
+Matriz parabolic_fem terminada.
+
+############################################################
+MATRIZ 14/20: Fault_639
+############################################################
+n:      638802
+nnz(A): 27245944
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.237006 nnz=60626
+tau=0.050000 tiempo=0.020828 nnz=14081
+tau=0.100000 tiempo=0.006811 nnz=6826
+tau=0.200000 tiempo=0.002670 nnz=3300
+tau=0.500000 tiempo=0.000952 nnz=1500
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   928442
+Construccion: 0.539004 s
+Resolviendo... terminada
+Resolucion:   17.018625 s
+Total:        17.557629 s
+Iteraciones:  1646
+Residuo:      9.759212e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 1.511760 s
+Limite de poda:         35.115259 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   2122916
+Construccion: 1.574710 s
+Resolviendo... terminada
+Resolucion:   10.538616 s
+Total:        12.113326 s
+Iteraciones:  946
+Residuo:      9.652202e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 4.015965 s
+Limite de poda:         24.226651 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   3745895
+Construccion: 3.536373 s
+Resolviendo... terminada
+Resolucion:   12.037964 s
+Total:        15.574338 s
+Iteraciones:  991
+Residuo:      9.308259e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 10.814791 s
+Limite de poda:         24.226651 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   7192736
+Construccion: 10.308861 s
+Resolviendo... terminada
+Resolucion:   8.357704 s
+Total:        18.666565 s
+Iteraciones:  591
+Residuo:      9.951834e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 117.308961 s
+Limite de poda:         24.226651 s
+PODADO
+
+MEJOR SAINV: tau=0.2 total=12.113326 s
+Construyendo FSAI q=1... terminada
+nnz factor:   13942373
+Construccion: 2.565846 s
+Resolviendo... terminada
+Resolucion:   36.050971 s
+Total:        38.616817 s
+Iteraciones:  2062
+Residuo:      9.969871e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 41.704x
+Construccion estimada:            107.005404 s
+Limite de poda:                    77.233634 s
+PODADO
+
+MEJOR FSAI: q=1 total=38.616817 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.004076 nnz=8984
+tau=0.001000 l=10 tiempo=0.006661 nnz=16439
+tau=0.001000 l=20 tiempo=0.010788 nnz=31254
+tau=0.001000 l=40 tiempo=0.019881 nnz=60532
+tau=0.010000 l=5 tiempo=0.004103 nnz=8968
+tau=0.010000 l=10 tiempo=0.006326 nnz=16317
+tau=0.010000 l=20 tiempo=0.009544 nnz=30480
+tau=0.010000 l=40 tiempo=0.016058 nnz=54652
+tau=0.100000 l=5 tiempo=0.003103 nnz=7610
+tau=0.100000 l=10 tiempo=0.003362 nnz=8888
+tau=0.100000 l=20 tiempo=0.003393 nnz=8927
+tau=0.100000 l=40 tiempo=0.003399 nnz=8927
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   3056806
+Construccion: 1.070691 s
+Resolviendo... terminada
+Resolucion:   219.577294 s
+Total:        220.647986 s
+Iteraciones:  18764
+Residuo:      9.695324e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 1.250500 s
+Limite de poda:         441.295971 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   3876849
+Construccion: 1.321822 s
+Resolviendo... terminada
+Resolucion:   118.053034 s
+Total:        119.374856 s
+Iteraciones:  9669
+Residuo:      8.536508e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 1.333937 s
+Limite de poda:         238.749712 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   4197443
+Construccion: 1.408738 s
+Resolviendo... terminada
+Resolucion:   106.645807 s
+Total:        108.054545 s
+Iteraciones:  8600
+Residuo:      9.983658e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 1.411141 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   4274728
+Construccion: 1.427016 s
+Resolviendo... terminada
+Resolucion:   116.081766 s
+Total:        117.508782 s
+Iteraciones:  9326
+Residuo:      9.665683e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 1.711381 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   3722587
+Construccion: 1.729434 s
+Resolviendo... terminada
+Resolucion:   208.316799 s
+Total:        210.046233 s
+Iteraciones:  17207
+Residuo:      9.742761e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 1.740650 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   3689794
+Construccion: 1.568423 s
+Resolviendo... terminada
+Resolucion:   208.991480 s
+Total:        210.559903 s
+Iteraciones:  17291
+Residuo:      9.227166e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 2.853697 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   6711217
+Construccion: 2.612197 s
+Resolviendo... terminada
+Resolucion:   151.775757 s
+Total:        154.387953 s
+Iteraciones:  10967
+Residuo:      9.958262e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 2.750512 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   6805449
+Construccion: 2.985239 s
+Resolviendo... terminada
+Resolucion:   143.622325 s
+Total:        146.607565 s
+Iteraciones:  10333
+Residuo:      9.776366e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 5.535014 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   12653181
+Construccion: 4.566586 s
+Resolviendo... terminada
+Resolucion:   159.149020 s
+Total:        163.715606 s
+Iteraciones:  9264
+Residuo:      9.798328e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 5.161977 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   12963316
+Construccion: 5.318607 s
+Resolviendo... terminada
+Resolucion:   145.221946 s
+Total:        150.540553 s
+Iteraciones:  8368
+Residuo:      9.989096e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 9.300330 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   23946031
+Construccion: 8.417090 s
+Resolviendo... terminada
+Resolucion:   274.256456 s
+Total:        282.673547 s
+Iteraciones:  11695
+Residuo:      9.897325e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 10.421049 s
+Limite de poda:         216.109091 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   25230762
+Construccion: 9.873573 s
+Resolviendo... terminada
+Resolucion:   217.162770 s
+Total:        227.036343 s
+Iteraciones:  8986
+Residuo:      9.788745e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=20 total=108.054545 s
+
+Matriz Fault_639 terminada.
+
+############################################################
+MATRIZ 15/20: apache2
+############################################################
+n:      715176
+nnz(A): 4817870
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.000735 nnz=8091
+tau=0.050000 tiempo=0.000455 nnz=4197
+tau=0.100000 tiempo=0.000309 nnz=2704
+tau=0.200000 tiempo=0.000277 nnz=2700
+tau=0.500000 tiempo=0.000242 nnz=1500
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   1072764
+Construccion: 0.159908 s
+Resolviendo... terminada
+Resolucion:   11.162194 s
+Total:        11.322102 s
+Iteraciones:  2479
+Residuo:      9.987384e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.287834 s
+Limite de poda:         22.644204 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   1965862
+Construccion: 0.245366 s
+Resolviendo... terminada
+Resolucion:   6.259783 s
+Total:        6.505149 s
+Iteraciones:  1242
+Residuo:      9.671614e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.273176 s
+Limite de poda:         13.010298 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   2338736
+Construccion: 0.283027 s
+Resolviendo... terminada
+Resolucion:   6.576684 s
+Total:        6.859711 s
+Iteraciones:  1250
+Residuo:      9.971450e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.439299 s
+Limite de poda:         13.010298 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   5992267
+Construccion: 0.757715 s
+Resolviendo... terminada
+Resolucion:   6.428875 s
+Total:        7.186591 s
+Iteraciones:  878
+Residuo:      9.642146e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 1.460728 s
+Limite de poda:         13.010298 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   26881371
+Construccion: 6.747777 s
+Resolviendo... terminada
+Resolucion:   9.372970 s
+Total:        16.120746 s
+Iteraciones:  491
+Residuo:      9.905886e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.2 total=6.505149 s
+Construyendo FSAI q=1... terminada
+nnz factor:   2766523
+Construccion: 0.156754 s
+Resolviendo... terminada
+Resolucion:   11.597034 s
+Total:        11.753787 s
+Iteraciones:  2289
+Residuo:      9.714938e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 32.181x
+Construccion estimada:            5.044484 s
+Limite de poda:                    23.507575 s
+Construyendo FSAI q=2... terminada
+nnz factor:   8639242
+Construccion: 0.795445 s
+Resolviendo... terminada
+Resolucion:   10.735956 s
+Total:        11.531401 s
+Iteraciones:  1285
+Residuo:      9.918091e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 13.573x
+Construccion estimada:            10.796256 s
+Limite de poda:                    23.062802 s
+Construyendo FSAI q=3... terminada
+nnz factor:   20445483
+Construccion: 3.369284 s
+Resolviendo... terminada
+Resolucion:   11.371322 s
+Total:        14.740606 s
+Iteraciones:  752
+Residuo:      9.908727e-11
+Convergio:    Si
+
+MEJOR FSAI: q=2 total=11.531401 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.001082 nnz=8687
+tau=0.001000 l=10 tiempo=0.001226 nnz=13770
+tau=0.001000 l=20 tiempo=0.001319 nnz=16151
+tau=0.001000 l=40 tiempo=0.001435 nnz=16151
+tau=0.010000 l=5 tiempo=0.000856 nnz=8082
+tau=0.010000 l=10 tiempo=0.000797 nnz=9275
+tau=0.010000 l=20 tiempo=0.000751 nnz=9275
+tau=0.010000 l=40 tiempo=0.000745 nnz=9275
+tau=0.100000 l=5 tiempo=0.000363 nnz=2704
+tau=0.100000 l=10 tiempo=0.000345 nnz=2704
+tau=0.100000 l=20 tiempo=0.000350 nnz=2704
+tau=0.100000 l=40 tiempo=0.000339 nnz=2704
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   3760100
+Construccion: 0.272804 s
+Resolviendo... terminada
+Resolucion:   6.223459 s
+Total:        6.496263 s
+Iteraciones:  1023
+Residuo:      9.738713e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.278103 s
+Limite de poda:         12.992527 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   3760100
+Construccion: 0.271682 s
+Resolviendo... terminada
+Resolucion:   6.225927 s
+Total:        6.497610 s
+Iteraciones:  1023
+Residuo:      9.726093e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.275569 s
+Limite de poda:         12.992527 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   3760100
+Construccion: 0.274100 s
+Resolviendo... terminada
+Resolucion:   6.221038 s
+Total:        6.495138 s
+Iteraciones:  1023
+Residuo:      9.747476e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.283757 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   3487904
+Construccion: 0.265626 s
+Resolviendo... terminada
+Resolucion:   6.644583 s
+Total:        6.910209 s
+Iteraciones:  1120
+Residuo:      9.794066e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.911125 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   29185468
+Construccion: 2.190927 s
+Resolviendo... terminada
+Resolucion:   10.797249 s
+Total:        12.988176 s
+Iteraciones:  531
+Residuo:      9.554364e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 2.210201 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   14985158
+Construccion: 1.022233 s
+Resolviendo... terminada
+Resolucion:   8.813177 s
+Total:        9.835410 s
+Iteraciones:  712
+Residuo:      9.669353e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 1.083594 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   7858462
+Construccion: 0.525532 s
+Resolviendo... terminada
+Resolucion:   6.954245 s
+Total:        7.479777 s
+Iteraciones:  831
+Residuo:      9.749583e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.564515 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   4290131
+Construccion: 0.343799 s
+Resolviendo... terminada
+Resolucion:   6.785915 s
+Total:        7.129714 s
+Iteraciones:  1062
+Residuo:      9.880281e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.434661 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   4290743
+Construccion: 0.348545 s
+Resolviendo... terminada
+Resolucion:   6.785773 s
+Total:        7.134319 s
+Iteraciones:  1062
+Residuo:      9.864475e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.552489 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   7864183
+Construccion: 0.545903 s
+Resolviendo... terminada
+Resolucion:   6.954668 s
+Total:        7.500571 s
+Iteraciones:  831
+Residuo:      9.757519e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 0.640296 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   14999032
+Construccion: 1.129554 s
+Resolviendo... terminada
+Resolucion:   8.852309 s
+Total:        9.981863 s
+Iteraciones:  715
+Residuo:      9.463377e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 1.229333 s
+Limite de poda:         12.990276 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   29252737
+Construccion: 2.365997 s
+Resolviendo... terminada
+Resolucion:   10.658994 s
+Total:        13.024991 s
+Iteraciones:  523
+Residuo:      9.780436e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=20 total=6.495138 s
+
+Matriz apache2 terminada.
+
+############################################################
+MATRIZ 16/20: tmt_sym
+############################################################
+n:      726713
+nnz(A): 5080961
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.019258 nnz=61491
+tau=0.050000 tiempo=0.003659 nnz=16278
+tau=0.100000 tiempo=0.001778 nnz=8617
+tau=0.200000 tiempo=0.000759 nnz=4386
+tau=0.500000 tiempo=0.000367 nnz=1571
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   727523
+Construccion: 0.133560 s
+Resolviendo... terminada
+Resolucion:   24.091258 s
+Total:        24.224817 s
+Iteraciones:  5423
+Residuo:      9.926477e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.372879 s
+Limite de poda:         48.449635 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   2179631
+Construccion: 0.246707 s
+Resolviendo... terminada
+Resolucion:   14.634747 s
+Total:        14.881453 s
+Iteraciones:  2750
+Residuo:      9.758782e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.577809 s
+Limite de poda:         29.762907 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   2765999
+Construccion: 0.319181 s
+Resolviendo... terminada
+Resolucion:   15.660270 s
+Total:        15.979451 s
+Iteraciones:  2770
+Residuo:      9.893825e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.656940 s
+Limite de poda:         29.762907 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   7999094
+Construccion: 0.809146 s
+Resolviendo... terminada
+Resolucion:   13.737066 s
+Total:        14.546212 s
+Iteraciones:  1608
+Residuo:      9.857110e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 4.258419 s
+Limite de poda:         29.092424 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   37848188
+Construccion: 6.837086 s
+Resolviendo... terminada
+Resolucion:   21.393646 s
+Total:        28.230732 s
+Iteraciones:  847
+Residuo:      9.866622e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.05 total=14.546212 s
+Construyendo FSAI q=1... terminada
+nnz factor:   2903837
+Construccion: 0.194994 s
+Resolviendo... terminada
+Resolucion:   13.695890 s
+Total:        13.890883 s
+Iteraciones:  2606
+Residuo:      9.850542e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 15.861x
+Construccion estimada:            3.092786 s
+Limite de poda:                    27.781766 s
+Construyendo FSAI q=2... terminada
+nnz factor:   7433688
+Construccion: 0.695761 s
+Resolviendo... terminada
+Resolucion:   13.226043 s
+Total:        13.921803 s
+Iteraciones:  1706
+Residuo:      9.697373e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 7.201x
+Construccion estimada:            5.010144 s
+Limite de poda:                    27.781766 s
+Construyendo FSAI q=3... terminada
+nnz factor:   14535982
+Construccion: 2.141773 s
+Resolviendo... terminada
+Resolucion:   14.637846 s
+Total:        16.779619 s
+Iteraciones:  1253
+Residuo:      9.803777e-11
+Convergio:    Si
+
+MEJOR FSAI: q=1 total=13.890883 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.001808 nnz=8832
+tau=0.001000 l=10 tiempo=0.002127 nnz=15548
+tau=0.001000 l=20 tiempo=0.003542 nnz=28376
+tau=0.001000 l=40 tiempo=0.006431 nnz=51516
+tau=0.010000 l=5 tiempo=0.001581 nnz=8624
+tau=0.010000 l=10 tiempo=0.002100 nnz=15139
+tau=0.010000 l=20 tiempo=0.003458 nnz=27101
+tau=0.010000 l=40 tiempo=0.005990 nnz=47460
+tau=0.100000 l=5 tiempo=0.001390 nnz=7738
+tau=0.100000 l=10 tiempo=0.001493 nnz=10536
+tau=0.100000 l=20 tiempo=0.001551 nnz=10946
+tau=0.100000 l=40 tiempo=0.001556 nnz=10946
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   3635692
+Construccion: 0.305865 s
+Resolviendo... terminada
+Resolucion:   14.147551 s
+Total:        14.453416 s
+Iteraciones:  2306
+Residuo:      9.766144e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.416464 s
+Limite de poda:         28.906832 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   3665025
+Construccion: 0.311665 s
+Resolviendo... terminada
+Resolucion:   14.421270 s
+Total:        14.732935 s
+Iteraciones:  2345
+Residuo:      9.880405e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.323794 s
+Limite de poda:         28.906832 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   4569465
+Construccion: 0.353332 s
+Resolviendo... terminada
+Resolucion:   15.146267 s
+Total:        15.499599 s
+Iteraciones:  2278
+Residuo:      9.911371e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 0.354588 s
+Limite de poda:         28.906832 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   4569465
+Construccion: 0.352945 s
+Resolviendo... terminada
+Resolucion:   15.136646 s
+Total:        15.489591 s
+Iteraciones:  2278
+Residuo:      9.902467e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.358531 s
+Limite de poda:         28.906832 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   4358114
+Construccion: 0.390695 s
+Resolviendo... terminada
+Resolucion:   14.371253 s
+Total:        14.761947 s
+Iteraciones:  2198
+Residuo:      9.766653e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.446869 s
+Limite de poda:         28.906832 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   4358370
+Construccion: 0.391948 s
+Resolviendo... terminada
+Resolucion:   14.360156 s
+Total:        14.752104 s
+Iteraciones:  2198
+Residuo:      9.806562e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.671842 s
+Limite de poda:         28.906832 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   7988260
+Construccion: 0.521734 s
+Resolviendo... terminada
+Resolucion:   13.140447 s
+Total:        13.662181 s
+Iteraciones:  1543
+Residuo:      9.830033e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.535829 s
+Limite de poda:         27.324362 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   7989236
+Construccion: 0.522214 s
+Resolviendo... terminada
+Resolucion:   13.136848 s
+Total:        13.659063 s
+Iteraciones:  1543
+Residuo:      9.816960e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 0.910247 s
+Limite de poda:         27.318125 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   15244670
+Construccion: 1.075262 s
+Resolviendo... terminada
+Resolucion:   14.398434 s
+Total:        15.473696 s
+Iteraciones:  1151
+Residuo:      9.927775e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 1.125849 s
+Limite de poda:         27.318125 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   15249779
+Construccion: 1.103999 s
+Resolviendo... terminada
+Resolucion:   14.661592 s
+Total:        15.765591 s
+Iteraciones:  1172
+Residuo:      9.435913e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 1.867195 s
+Limite de poda:         27.318125 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   29740711
+Construccion: 2.479467 s
+Resolviendo... terminada
+Resolucion:   18.343074 s
+Total:        20.822540 s
+Iteraciones:  888
+Residuo:      9.197791e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 2.691366 s
+Limite de poda:         27.318125 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   29764950
+Construccion: 2.516767 s
+Resolviendo... terminada
+Resolucion:   18.331523 s
+Total:        20.848290 s
+Iteraciones:  887
+Residuo:      9.515578e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.001;l=10 total=13.659063 s
+
+Matriz tmt_sym terminada.
+
+############################################################
+MATRIZ 17/20: ecology2
+############################################################
+n:      999999
+nnz(A): 4995991
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.001426 nnz=12463
+tau=0.050000 tiempo=0.000875 nnz=8983
+tau=0.100000 tiempo=0.000635 nnz=6491
+tau=0.200000 tiempo=0.000352 nnz=3504
+tau=0.500000 tiempo=0.000248 nnz=1502
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   1000003
+Construccion: 0.162083 s
+Resolviendo... terminada
+Resolucion:   42.098454 s
+Total:        42.260537 s
+Iteraciones:  6864
+Residuo:      9.922781e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.378122 s
+Limite de poda:         84.521073 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   2997866
+Construccion: 0.277571 s
+Resolviendo... terminada
+Resolucion:   26.095772 s
+Total:        26.373343 s
+Iteraciones:  3545
+Residuo:      9.935350e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 0.514187 s
+Limite de poda:         52.746685 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   4949258
+Construccion: 0.387401 s
+Resolviendo... terminada
+Resolucion:   25.452078 s
+Total:        25.839479 s
+Iteraciones:  3016
+Residuo:      9.990268e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 0.536130 s
+Limite de poda:         51.678959 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   9057138
+Construccion: 0.716433 s
+Resolviendo... terminada
+Resolucion:   23.065760 s
+Total:        23.782193 s
+Iteraciones:  2160
+Residuo:      9.838007e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 1.166760 s
+Limite de poda:         47.564387 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   65821646
+Construccion: 9.951126 s
+Resolviendo... terminada
+Resolucion:   39.396358 s
+Total:        49.347484 s
+Iteraciones:  912
+Residuo:      9.352933e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.05 total=23.782193 s
+Construyendo FSAI q=1... terminada
+nnz factor:   2997995
+Construccion: 0.180296 s
+Resolviendo... terminada
+Resolucion:   24.703995 s
+Total:        24.884290 s
+Iteraciones:  3649
+Residuo:      9.899087e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 12.515x
+Construccion estimada:            2.256428 s
+Limite de poda:                    49.768580 s
+Construyendo FSAI q=2... terminada
+nnz factor:   6989986
+Construccion: 0.480845 s
+Resolviendo... terminada
+Resolucion:   23.156153 s
+Total:        23.636998 s
+Iteraciones:  2586
+Residuo:      9.985963e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 6.360x
+Construccion estimada:            3.058388 s
+Limite de poda:                    47.273996 s
+Construyendo FSAI q=3... terminada
+nnz factor:   12971975
+Construccion: 1.180278 s
+Resolviendo... terminada
+Resolucion:   24.291317 s
+Total:        25.471595 s
+Iteraciones:  1990
+Residuo:      9.788031e-11
+Convergio:    Si
+
+MEJOR FSAI: q=2 total=23.636998 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.003504 nnz=8985
+tau=0.001000 l=10 tiempo=0.003808 nnz=13468
+tau=0.001000 l=20 tiempo=0.001122 nnz=18423
+tau=0.001000 l=40 tiempo=0.004482 nnz=21863
+tau=0.010000 l=5 tiempo=0.003400 nnz=7991
+tau=0.010000 l=10 tiempo=0.003888 nnz=10480
+tau=0.010000 l=20 tiempo=0.004445 nnz=12959
+tau=0.010000 l=40 tiempo=0.004339 nnz=12959
+tau=0.100000 l=5 tiempo=0.003257 nnz=5993
+tau=0.100000 l=10 tiempo=0.003117 nnz=6492
+tau=0.100000 l=20 tiempo=0.002011 nnz=6492
+tau=0.100000 l=40 tiempo=0.000675 nnz=6492
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   8850673
+Construccion: 0.482171 s
+Resolviendo... terminada
+Resolucion:   22.589952 s
+Total:        23.072123 s
+Iteraciones:  2134
+Residuo:      9.960187e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 1.368305 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   20986899
+Construccion: 1.196834 s
+Resolviendo... terminada
+Resolucion:   25.913202 s
+Total:        27.110035 s
+Iteraciones:  1506
+Residuo:      9.928738e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 2.144121 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   8850673
+Construccion: 0.482227 s
+Resolviendo... terminada
+Resolucion:   22.616228 s
+Total:        23.098455 s
+Iteraciones:  2137
+Residuo:      9.862873e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.747637 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   6944071
+Construccion: 0.430501 s
+Resolviendo... terminada
+Resolucion:   25.010022 s
+Total:        25.440524 s
+Iteraciones:  2620
+Residuo:      9.937494e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.449764 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   5008533
+Construccion: 0.368490 s
+Resolviendo... terminada
+Resolucion:   24.818099 s
+Total:        25.186589 s
+Iteraciones:  2926
+Residuo:      9.989010e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 0.491341 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   5998985
+Construccion: 0.463922 s
+Resolviendo... terminada
+Resolucion:   24.679315 s
+Total:        25.143237 s
+Iteraciones:  2737
+Residuo:      9.799898e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 0.521630 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   5999979
+Construccion: 0.461956 s
+Resolviendo... terminada
+Resolucion:   24.684071 s
+Total:        25.146027 s
+Iteraciones:  2737
+Residuo:      9.789312e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 0.692446 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   10996957
+Construccion: 0.579194 s
+Resolviendo... terminada
+Resolucion:   22.987134 s
+Total:        23.566328 s
+Iteraciones:  1957
+Residuo:      9.672828e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 0.591308 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   10993968
+Construccion: 0.580712 s
+Resolviendo... terminada
+Resolucion:   22.981274 s
+Total:        23.561987 s
+Iteraciones:  1957
+Residuo:      9.648008e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 0.718078 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   40925417
+Construccion: 2.045930 s
+Resolviendo... terminada
+Resolucion:   32.010703 s
+Total:        34.056633 s
+Iteraciones:  1129
+Residuo:      9.662571e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 2.096006 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   20978885
+Construccion: 1.156787 s
+Resolviendo... terminada
+Resolucion:   25.889915 s
+Total:        27.046702 s
+Iteraciones:  1506
+Residuo:      9.681759e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 1.951603 s
+Limite de poda:         46.144247 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   40953702
+Construccion: 2.094786 s
+Resolviendo... terminada
+Resolucion:   31.986973 s
+Total:        34.081759 s
+Iteraciones:  1128
+Residuo:      9.796966e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=40 total=23.072123 s
+
+Matriz ecology2 terminada.
+
+############################################################
+MATRIZ 18/20: thermal2
+############################################################
+n:      1228045
+nnz(A): 8580313
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.011923 nnz=29233
+tau=0.050000 tiempo=0.003051 nnz=9684
+tau=0.100000 tiempo=0.001736 nnz=5718
+tau=0.200000 tiempo=0.001090 nnz=3412
+tau=0.500000 tiempo=0.000432 nnz=1505
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   1229609
+Construccion: 0.347963 s
+Resolviendo... terminada
+Resolucion:   44.941104 s
+Total:        45.289068 s
+Iteraciones:  5170
+Residuo:      9.929472e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.877413 s
+Limite de poda:         90.578135 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   3070861
+Construccion: 0.933771 s
+Resolviendo... terminada
+Resolucion:   33.555861 s
+Total:        34.489632 s
+Iteraciones:  3334
+Residuo:      9.988723e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 1.564859 s
+Limite de poda:         68.979263 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   5335254
+Construccion: 1.624649 s
+Resolviendo... terminada
+Resolucion:   26.940116 s
+Total:        28.564765 s
+Iteraciones:  2355
+Residuo:      9.995962e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 2.854767 s
+Limite de poda:         57.129530 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   9516914
+Construccion: 3.159243 s
+Resolviendo... terminada
+Resolucion:   24.578666 s
+Total:        27.737909 s
+Iteraciones:  1768
+Residuo:      9.699608e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 12.347801 s
+Limite de poda:         55.475819 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   33998052
+Construccion: 19.589466 s
+Resolviendo... terminada
+Resolucion:   25.882278 s
+Total:        45.471744 s
+Iteraciones:  927
+Residuo:      9.817168e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.05 total=27.737909 s
+Construyendo FSAI q=1... terminada
+nnz factor:   4904179
+Construccion: 0.449075 s
+Resolviendo... terminada
+Resolucion:   28.329659 s
+Total:        28.778734 s
+Iteraciones:  2670
+Residuo:      9.919377e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 13.797x
+Construccion estimada:            6.195910 s
+Limite de poda:                    57.557468 s
+Construyendo FSAI q=2... terminada
+nnz factor:   11096203
+Construccion: 1.513637 s
+Resolviendo... terminada
+Resolucion:   25.105072 s
+Total:        26.618709 s
+Iteraciones:  1766
+Residuo:      9.923998e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 6.058x
+Construccion estimada:            9.169315 s
+Limite de poda:                    53.237419 s
+Construyendo FSAI q=3... terminada
+nnz factor:   20295645
+Construccion: 4.092018 s
+Resolviendo... terminada
+Resolucion:   25.028121 s
+Total:        29.120139 s
+Iteraciones:  1285
+Residuo:      9.759089e-11
+Convergio:    Si
+
+MEJOR FSAI: q=2 total=26.618709 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.001428 nnz=7266
+tau=0.001000 l=10 tiempo=0.002003 nnz=12949
+tau=0.001000 l=20 tiempo=0.003228 nnz=24070
+tau=0.001000 l=40 tiempo=0.005222 nnz=44072
+tau=0.010000 l=5 tiempo=0.001513 nnz=7121
+tau=0.010000 l=10 tiempo=0.001970 nnz=12284
+tau=0.010000 l=20 tiempo=0.002879 nnz=21141
+tau=0.010000 l=40 tiempo=0.003942 nnz=32390
+tau=0.100000 l=5 tiempo=0.001198 nnz=5841
+tau=0.100000 l=10 tiempo=0.001235 nnz=7062
+tau=0.100000 l=20 tiempo=0.001252 nnz=7184
+tau=0.100000 l=40 tiempo=0.001199 nnz=7184
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   5130388
+Construccion: 0.971280 s
+Resolviendo... terminada
+Resolucion:   30.060551 s
+Total:        31.031830 s
+Iteraciones:  2660
+Residuo:      9.818334e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 1.194602 s
+Limite de poda:         62.063661 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   6775212
+Construccion: 1.167345 s
+Resolviendo... terminada
+Resolucion:   25.299510 s
+Total:        26.466855 s
+Iteraciones:  2058
+Residuo:      9.931107e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 1.202417 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   6520747
+Construccion: 1.141152 s
+Resolviendo... terminada
+Resolucion:   26.569779 s
+Total:        27.710931 s
+Iteraciones:  2190
+Residuo:      9.985603e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 1.160866 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   6775166
+Construccion: 1.166149 s
+Resolviendo... terminada
+Resolucion:   25.308157 s
+Total:        26.474306 s
+Iteraciones:  2059
+Residuo:      9.864048e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 1.330254 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   6223093
+Construccion: 1.206472 s
+Resolviendo... terminada
+Resolucion:   30.802039 s
+Total:        32.008512 s
+Iteraciones:  2581
+Residuo:      9.930966e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 1.277804 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   6107628
+Construccion: 1.172597 s
+Resolviendo... terminada
+Resolucion:   30.620889 s
+Total:        31.793485 s
+Iteraciones:  2579
+Residuo:      9.975572e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 2.022774 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   10604910
+Construccion: 1.787466 s
+Resolviendo... terminada
+Resolucion:   28.982113 s
+Total:        30.769579 s
+Iteraciones:  2002
+Residuo:      9.852253e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 1.884231 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   11078226
+Construccion: 1.861252 s
+Resolviendo... terminada
+Resolucion:   29.547071 s
+Total:        31.408323 s
+Iteraciones:  2003
+Residuo:      9.851182e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 3.038746 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   18450999
+Construccion: 2.678416 s
+Resolviendo... terminada
+Resolucion:   28.531160 s
+Total:        31.209576 s
+Iteraciones:  1505
+Residuo:      9.970110e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 3.049500 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   20497314
+Construccion: 2.962936 s
+Resolviendo... terminada
+Resolucion:   30.130249 s
+Total:        33.093185 s
+Iteraciones:  1498
+Residuo:      9.899855e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 3.987099 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   29647215
+Construccion: 3.719514 s
+Resolviendo... terminada
+Resolucion:   28.399129 s
+Total:        32.118644 s
+Iteraciones:  1120
+Residuo:      9.841187e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 5.061020 s
+Limite de poda:         52.933710 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   38037985
+Construccion: 4.812919 s
+Resolviendo... terminada
+Resolucion:   33.613569 s
+Total:        38.426488 s
+Iteraciones:  1118
+Residuo:      9.739494e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=40 total=26.466855 s
+
+Matriz thermal2 terminada.
+
+############################################################
+MATRIZ 19/20: StocF-1465
+############################################################
+n:      1465137
+nnz(A): 21005389
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.003233 nnz=7541
+tau=0.050000 tiempo=0.001726 nnz=5021
+tau=0.100000 tiempo=0.001555 nnz=4749
+tau=0.200000 tiempo=0.001439 nnz=4521
+tau=0.500000 tiempo=0.001380 nnz=4131
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   12608581
+Construccion: 4.688587 s
+Resolviendo... terminada
+Resolucion:   32.104032 s
+Total:        36.792619 s
+Iteraciones:  1545
+Residuo:      9.916310e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 5.131228 s
+Limite de poda:         73.585239 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   20374784
+Construccion: 7.939473 s
+Resolviendo... terminada
+Resolucion:   13.886757 s
+Total:        21.826230 s
+Iteraciones:  547
+Residuo:      9.931728e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 8.580131 s
+Limite de poda:         43.652460 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   23759493
+Construccion: 9.651801 s
+Resolviendo... terminada
+Resolucion:   9.365186 s
+Total:        19.016988 s
+Iteraciones:  342
+Residuo:      9.577659e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 10.714668 s
+Limite de poda:         38.033975 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   28448426
+Construccion: 12.947321 s
+Resolviendo... terminada
+Resolucion:   6.860624 s
+Total:        19.807945 s
+Iteraciones:  228
+Residuo:      9.873300e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 24.252912 s
+Limite de poda:         38.033975 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   79799629
+Construccion: 68.048537 s
+Resolviendo... terminada
+Resolucion:   6.191163 s
+Total:        74.239700 s
+Iteraciones:  105
+Residuo:      9.936021e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.1 total=19.016988 s
+Construyendo FSAI q=1... terminada
+nnz factor:   11235263
+Construccion: 1.098580 s
+Resolviendo... terminada
+Resolucion:   281.850681 s
+Total:        282.949261 s
+Iteraciones:  14880
+Residuo:      9.834225e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 48.829x
+Construccion estimada:            53.642796 s
+Limite de poda:                    565.898523 s
+Construyendo FSAI q=2... terminada
+nnz factor:   46040618
+Construccion: 10.672856 s
+Resolviendo... terminada
+Resolucion:   265.329616 s
+Total:        276.002471 s
+Iteraciones:  6870
+Residuo:      9.966536e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 12.009x
+Construccion estimada:            128.172782 s
+Limite de poda:                    552.004942 s
+Construyendo FSAI q=3... terminada
+nnz factor:   124457019
+Construccion: 84.190559 s
+Resolviendo... terminada
+Resolucion:   302.194022 s
+Total:        386.384581 s
+Iteraciones:  3676
+Residuo:      9.801287e-11
+Convergio:    Si
+
+MEJOR FSAI: q=2 total=276.002471 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.001706 nnz=7006
+tau=0.001000 l=10 tiempo=0.001991 nnz=10240
+tau=0.001000 l=20 tiempo=0.002726 nnz=13217
+tau=0.001000 l=40 tiempo=0.002617 nnz=14096
+tau=0.010000 l=5 tiempo=0.001099 nnz=5066
+tau=0.010000 l=10 tiempo=0.001161 nnz=5764
+tau=0.010000 l=20 tiempo=0.001257 nnz=5861
+tau=0.010000 l=40 tiempo=0.001226 nnz=5861
+tau=0.100000 l=5 tiempo=0.000975 nnz=4452
+tau=0.100000 l=10 tiempo=0.000988 nnz=4671
+tau=0.100000 l=20 tiempo=0.000993 nnz=4671
+tau=0.100000 l=40 tiempo=0.000978 nnz=4671
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   6519304
+Construccion: 1.177746 s
+Resolviendo... terminada
+Resolucion:   680.797536 s
+Total:        681.975282 s
+Iteraciones:  39992
+Residuo:      9.804403e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=40
+Construccion estimada: 1.235681 s
+Limite de poda:         1363.950564 s
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   21840852
+Construccion: 3.076998 s
+Resolviendo... terminada
+Resolucion:   47.986178 s
+Total:        51.063176 s
+Iteraciones:  1832
+Residuo:      9.292425e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 3.110285 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   9960253
+Construccion: 1.612581 s
+Resolviendo... terminada
+Resolucion:   440.244059 s
+Total:        441.856640 s
+Iteraciones:  23000
+Residuo:      9.762268e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 1.619738 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   14822037
+Construccion: 2.175038 s
+Resolviendo... terminada
+Resolucion:   272.173619 s
+Total:        274.348657 s
+Iteraciones:  12333
+Residuo:      9.944985e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 2.407857 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   7932166
+Construccion: 1.367878 s
+Resolviendo... terminada
+Resolucion:   747.459258 s
+Total:        748.827137 s
+Iteraciones:  41747
+Residuo:      9.955210e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 1.556346 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   13631488
+Construccion: 2.189086 s
+Resolviendo... terminada
+Resolucion:   526.810289 s
+Total:        528.999376 s
+Iteraciones:  24715
+Residuo:      9.987271e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 2.311302 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   36740921
+Construccion: 5.676796 s
+Resolviendo... terminada
+Resolucion:   100.577308 s
+Total:        106.254104 s
+Iteraciones:  2911
+Residuo:      9.924715e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 5.821571 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   23048623
+Construccion: 3.565555 s
+Resolviendo... terminada
+Resolucion:   380.706239 s
+Total:        384.271794 s
+Iteraciones:  14212
+Residuo:      9.881453e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 4.838223 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   8300347
+Construccion: 1.444641 s
+Resolviendo... terminada
+Resolucion:   760.521078 s
+Total:        761.965719 s
+Iteraciones:  41932
+Residuo:      9.853522e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 2.111493 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   14752218
+Construccion: 2.443293 s
+Resolviendo... terminada
+Resolucion:   541.717707 s
+Total:        544.161000 s
+Iteraciones:  24664
+Residuo:      9.986589e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 3.363346 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   49141632
+Construccion: 8.102190 s
+Resolviendo... terminada
+Resolucion:   122.351707 s
+Total:        130.453896 s
+Iteraciones:  2955
+Residuo:      9.999330e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 8.440229 s
+Limite de poda:         102.126352 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   26831400
+Construccion: 4.337198 s
+Resolviendo... terminada
+Resolucion:   434.270509 s
+Total:        438.607707 s
+Iteraciones:  15026
+Residuo:      9.416823e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=40 total=51.063176 s
+
+Matriz StocF-1465 terminada.
+
+############################################################
+MATRIZ 20/20: G3_circuit
+############################################################
+n:      1585478
+nnz(A): 7660826
+
+PILOTO SAINV
+Tamano: 1500
+tau=0.010000 tiempo=0.000437 nnz=7460
+tau=0.050000 tiempo=0.000385 nnz=5232
+tau=0.100000 tiempo=0.000376 nnz=4488
+tau=0.200000 tiempo=0.000264 nnz=2252
+tau=0.500000 tiempo=0.000258 nnz=2248
+Construyendo SAINV tau=0.5... terminada
+nnz factor:   2051322
+Construccion: 0.341767 s
+Resolviendo... terminada
+Resolucion:   17.953853 s
+Total:        18.295621 s
+Iteraciones:  1643
+Residuo:      9.976957e-11
+Convergio:    Si
+
+SAINV tau=2.000000e-01
+Construccion estimada: 0.350818 s
+Limite de poda:         36.591241 s
+Construyendo SAINV tau=0.2... terminada
+nnz factor:   5125737
+Construccion: 0.603002 s
+Resolviendo... terminada
+Resolucion:   11.773046 s
+Total:        12.376048 s
+Iteraciones:  913
+Residuo:      9.696673e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-01
+Construccion estimada: 1.201719 s
+Limite de poda:         24.752096 s
+Construyendo SAINV tau=0.1... terminada
+nnz factor:   8014561
+Construccion: 0.898631 s
+Resolviendo... terminada
+Resolucion:   12.145137 s
+Total:        13.043768 s
+Iteraciones:  835
+Residuo:      9.714725e-11
+Convergio:    Si
+
+SAINV tau=5.000000e-02
+Construccion estimada: 1.047602 s
+Limite de poda:         24.752096 s
+Construyendo SAINV tau=0.05... terminada
+nnz factor:   18551361
+Construccion: 2.331675 s
+Resolviendo... terminada
+Resolucion:   10.469020 s
+Total:        12.800694 s
+Iteraciones:  510
+Residuo:      9.175999e-11
+Convergio:    Si
+
+SAINV tau=1.000000e-02
+Construccion estimada: 3.324597 s
+Limite de poda:         24.752096 s
+Construyendo SAINV tau=0.01... terminada
+nnz factor:   97977873
+Construccion: 32.825559 s
+Resolviendo... terminada
+Resolucion:   16.402746 s
+Total:        49.228305 s
+Iteraciones:  252
+Residuo:      8.947616e-11
+Convergio:    Si
+
+MEJOR SAINV: tau=0.2 total=12.376048 s
+Construyendo FSAI q=1... terminada
+nnz factor:   4623152
+Construccion: 0.279406 s
+Resolviendo... terminada
+Resolucion:   11.917416 s
+Total:        12.196822 s
+Iteraciones:  1019
+Residuo:      9.725897e-11
+Convergio:    Si
+
+FSAI q=2
+Crecimiento estructural estimado: 15.625x
+Construccion estimada:            4.365718 s
+Limite de poda:                    24.393645 s
+Construyendo FSAI q=2... terminada
+nnz factor:   10882990
+Construccion: 0.775091 s
+Resolviendo... terminada
+Resolucion:   10.313541 s
+Total:        11.088632 s
+Iteraciones:  675
+Residuo:      9.115266e-11
+Convergio:    Si
+
+FSAI q=3
+Crecimiento estructural estimado: 7.746x
+Construccion estimada:            6.003667 s
+Limite de poda:                    22.177263 s
+Construyendo FSAI q=3... terminada
+nnz factor:   21658423
+Construccion: 2.202621 s
+Resolviendo... terminada
+Resolucion:   11.079511 s
+Total:        13.282132 s
+Iteraciones:  521
+Residuo:      9.621786e-11
+Convergio:    Si
+
+MEJOR FSAI: q=2 total=11.088632 s
+
+PILOTO AIB
+Tamano: 1500
+tau=0.001000 l=5 tiempo=0.000990 nnz=8940
+tau=0.001000 l=10 tiempo=0.000803 nnz=10416
+tau=0.001000 l=20 tiempo=0.000740 nnz=10416
+tau=0.001000 l=40 tiempo=0.000737 nnz=10416
+tau=0.010000 l=5 tiempo=0.000729 nnz=7460
+tau=0.010000 l=10 tiempo=0.000693 nnz=7460
+tau=0.010000 l=20 tiempo=0.000664 nnz=7460
+tau=0.010000 l=40 tiempo=0.000690 nnz=7460
+tau=0.100000 l=5 tiempo=0.000519 nnz=4488
+tau=0.100000 l=10 tiempo=0.000485 nnz=4488
+tau=0.100000 l=20 tiempo=0.000469 nnz=4488
+tau=0.100000 l=40 tiempo=0.000452 nnz=4488
+Construyendo AIB tau=0.1;l=40... terminada
+nnz factor:   9231149
+Construccion: 0.772127 s
+Resolviendo... terminada
+Resolucion:   11.913093 s
+Total:        12.685219 s
+Iteraciones:  781
+Residuo:      9.393366e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=20
+Construccion estimada: 0.800541 s
+Limite de poda:         25.370439 s
+Construyendo AIB tau=0.1;l=20... terminada
+nnz factor:   9231145
+Construccion: 0.770878 s
+Resolviendo... terminada
+Resolucion:   11.950304 s
+Total:        12.721183 s
+Iteraciones:  781
+Residuo:      9.375719e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=10
+Construccion estimada: 0.797675 s
+Limite de poda:         25.370439 s
+Construyendo AIB tau=0.1;l=10... terminada
+nnz factor:   9188616
+Construccion: 0.775272 s
+Resolviendo... terminada
+Resolucion:   11.695378 s
+Total:        12.470650 s
+Iteraciones:  768
+Residuo:      9.818828e-11
+Convergio:    Si
+
+AIB tau=1.000000e-01 l=5
+Construccion estimada: 0.829954 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.1;l=5... terminada
+nnz factor:   7921100
+Construccion: 0.698604 s
+Resolviendo... terminada
+Resolucion:   12.311950 s
+Total:        13.010554 s
+Iteraciones:  850
+Residuo:      9.535270e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=20
+Construccion estimada: 1.161227 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.01;l=20... terminada
+nnz factor:   29818641
+Construccion: 1.888063 s
+Resolviendo... terminada
+Resolucion:   12.360487 s
+Total:        14.248550 s
+Iteraciones:  462
+Residuo:      9.923244e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=40
+Construccion estimada: 1.961164 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.01;l=40... terminada
+nnz factor:   55024535
+Construccion: 3.541574 s
+Resolviendo... terminada
+Resolucion:   13.718331 s
+Total:        17.259905 s
+Iteraciones:  336
+Residuo:      9.203705e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=10
+Construccion estimada: 3.557470 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.01;l=10... terminada
+nnz factor:   16365095
+Construccion: 1.214603 s
+Resolviendo... terminada
+Resolucion:   11.927015 s
+Total:        13.141618 s
+Iteraciones:  619
+Residuo:      9.999798e-11
+Convergio:    Si
+
+AIB tau=1.000000e-02 l=5
+Construccion estimada: 1.276752 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.01;l=5... terminada
+nnz factor:   9253237
+Construccion: 0.836425 s
+Resolviendo... terminada
+Resolucion:   12.415216 s
+Total:        13.251641 s
+Iteraciones:  814
+Residuo:      9.816170e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=40
+Construccion estimada: 1.167856 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.001;l=40... terminada
+nnz factor:   59735588
+Construccion: 4.112739 s
+Resolviendo... terminada
+Resolucion:   14.606078 s
+Total:        18.718817 s
+Iteraciones:  336
+Residuo:      9.716573e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=20
+Construccion estimada: 4.129352 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.001;l=20... terminada
+nnz factor:   31108395
+Construccion: 2.020319 s
+Resolviendo... terminada
+Resolucion:   12.717231 s
+Total:        14.737550 s
+Iteraciones:  463
+Residuo:      9.389865e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=10
+Construccion estimada: 2.191243 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.001;l=10... terminada
+nnz factor:   16739123
+Construccion: 1.256189 s
+Resolviendo... terminada
+Resolucion:   12.068105 s
+Total:        13.324294 s
+Iteraciones:  619
+Residuo:      9.157704e-11
+Convergio:    Si
+
+AIB tau=1.000000e-03 l=5
+Construccion estimada: 1.550138 s
+Limite de poda:         24.941299 s
+Construyendo AIB tau=0.001;l=5... terminada
+nnz factor:   9430427
+Construccion: 0.838057 s
+Resolviendo... terminada
+Resolucion:   12.490419 s
+Total:        13.328476 s
+Iteraciones:  813
+Residuo:      9.465250e-11
+Convergio:    Si
+
+MEJOR AIB: tau=0.1;l=10 total=12.470650 s
+
+Matriz G3_circuit terminada.
+
+============================================================
+AJUSTE TERMINADO
+============================================================
+Resultados: salidas/ajuste_hiperparametros.csv
+============================================================

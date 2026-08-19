@@ -1,0 +1,18 @@
+
+Dimension:  1465137
+nnz(A):     21005389
+Hilos:      12
+Tolerancia: 1.00e-10
+Tau SAINV:  0.10
+q FSAI:     1
+Tau AIB:    0.01
+l AIB:      20
+
+Construyendo GCP SAINV... terminado en 11.516529 s
+Resolviendo con GCP SAINV... terminado
+Construyendo GCP FSAI... terminado en 1.199519 s
+Resolviendo con GCP FSAI... terminado
+Construyendo GCP AIB... terminado en 4.038835 s
+Resolviendo con GCP AIB... terminado
+Construyendo GCP Jacobi... terminado en 0.015963 s
+Resolviendo con GCP Jacobi... terminado

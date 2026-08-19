@@ -1,0 +1,306 @@
+
+============================================================
+EXPERIMENTO 3: MATRICES A GRAN ESCALA
+============================================================
+Matrices:    5
+Metodos:     4
+Tolerancia:  1.000000e-10
+MaxIter:     1000000
+Hilos:       12
+SAINV tau:   2.000000e-01
+FSAI q:      1
+AIB tau:     1.000000e-01
+AIB l:       40
+
+############################################################
+MATRIZ 1/5: Hook_1498
+############################################################
+Leyendo matriz... terminada
+n:      1498023
+nnz(A): 59374451
+
+------------------------------------------------------------
+FSAI q = 1
+------------------------------------------------------------
+Construyendo FSAI... terminada
+nnz factor: 30436237
+Construccion: 5.703056 s
+Resolviendo... terminada
+Resolucion: 91.525048 s
+Iteraciones: 2275
+Residuo: 9.474181e-11
+Convergio: Si
+
+------------------------------------------------------------
+SAINV tau = 2.000000e-01
+------------------------------------------------------------
+Construyendo SAINV... terminada
+nnz factor: 2751275
+Construccion: 2.109353 s
+Resolviendo... terminada
+Resolucion: 96.349530 s
+Iteraciones: 3789
+Residuo: 9.889499e-11
+Convergio: Si
+
+------------------------------------------------------------
+AIB tau = 1.000000e-01, l = 40
+------------------------------------------------------------
+Construyendo AIB... terminada
+nnz factor: 7594374
+Construccion: 3.014070 s
+Resolviendo... terminada
+Resolucion: 80.910872 s
+Iteraciones: 2855
+Residuo: 9.998261e-11
+Convergio: Si
+
+------------------------------------------------------------
+Jacobi
+------------------------------------------------------------
+Construyendo Jacobi... terminada
+nnz factor: 1498023
+Construccion: 0.027373 s
+Resolviendo... terminada
+Resolucion: 119.386645 s
+Iteraciones: 5493
+Residuo: 9.952713e-11
+Convergio: Si
+
+Matriz Hook_1498 terminada.
+
+############################################################
+MATRIZ 2/5: Geo_1438
+############################################################
+Leyendo matriz... terminada
+n:      1437960
+nnz(A): 60236322
+
+------------------------------------------------------------
+FSAI q = 1
+------------------------------------------------------------
+Construyendo FSAI... terminada
+nnz factor: 30837141
+Construccion: 5.536246 s
+Resolviendo... terminada
+Resolucion: 32.048789 s
+Iteraciones: 792
+Residuo: 9.785612e-11
+Convergio: Si
+
+------------------------------------------------------------
+SAINV tau = 2.000000e-01
+------------------------------------------------------------
+Construyendo SAINV... terminada
+nnz factor: 3266789
+Construccion: 2.423921 s
+Resolviendo... terminada
+Resolucion: 29.077899 s
+Iteraciones: 1133
+Residuo: 9.999282e-11
+Convergio: Si
+
+------------------------------------------------------------
+AIB tau = 1.000000e-01, l = 40
+------------------------------------------------------------
+Construyendo AIB... terminada
+nnz factor: 9383657
+Construccion: 3.377525 s
+Resolviendo... terminada
+Resolucion: 20.618577 s
+Iteraciones: 700
+Residuo: 9.776626e-11
+Convergio: Si
+
+------------------------------------------------------------
+Jacobi
+------------------------------------------------------------
+Construyendo Jacobi... terminada
+nnz factor: 1437960
+Construccion: 0.026462 s
+Resolviendo... terminada
+Resolucion: 37.111224 s
+Iteraciones: 1708
+Residuo: 9.991991e-11
+Convergio: Si
+
+Matriz Geo_1438 terminada.
+
+############################################################
+MATRIZ 3/5: Serena
+############################################################
+Leyendo matriz... terminada
+n:      1391349
+nnz(A): 64131971
+
+------------------------------------------------------------
+FSAI q = 1
+------------------------------------------------------------
+Construyendo FSAI... terminada
+nnz factor: 32761660
+Construccion: 6.624296 s
+Resolviendo... terminada
+Resolucion: 17.864465 s
+Iteraciones: 420
+Residuo: 9.752600e-11
+Convergio: Si
+
+------------------------------------------------------------
+SAINV tau = 2.000000e-01
+------------------------------------------------------------
+Construyendo SAINV... terminada
+nnz factor: 2889073
+Construccion: 2.387450 s
+Resolviendo... terminada
+Resolucion: 16.095676 s
+Iteraciones: 612
+Residuo: 9.614611e-11
+Convergio: Si
+
+------------------------------------------------------------
+AIB tau = 1.000000e-01, l = 40
+------------------------------------------------------------
+Construyendo AIB... terminada
+nnz factor: 7381488
+Construccion: 3.044813 s
+Resolviendo... terminada
+Resolucion: 17.404233 s
+Iteraciones: 599
+Residuo: 9.388018e-11
+Convergio: Si
+
+------------------------------------------------------------
+Jacobi
+------------------------------------------------------------
+Construyendo Jacobi... terminada
+nnz factor: 1391349
+Construccion: 0.029062 s
+Resolviendo... terminada
+Resolucion: 24.799467 s
+Iteraciones: 1097
+Residuo: 9.778814e-11
+Convergio: Si
+
+Matriz Serena terminada.
+
+############################################################
+MATRIZ 4/5: bone010
+############################################################
+Leyendo matriz... terminada
+n:      986703
+nnz(A): 47851783
+
+------------------------------------------------------------
+FSAI q = 1
+------------------------------------------------------------
+Construyendo FSAI... terminada
+nnz factor: 24419243
+Construccion: 4.603578 s
+Resolviendo... terminada
+Resolucion: 215.427116 s
+Iteraciones: 7030
+Residuo: 9.883229e-11
+Convergio: Si
+
+------------------------------------------------------------
+SAINV tau = 2.000000e-01
+------------------------------------------------------------
+Construyendo SAINV... terminada
+nnz factor: 2059318
+Construccion: 1.156718 s
+Resolviendo... terminada
+Resolucion: 179.847930 s
+Iteraciones: 9598
+Residuo: 9.733264e-11
+Convergio: Si
+
+------------------------------------------------------------
+AIB tau = 1.000000e-01, l = 40
+------------------------------------------------------------
+Construyendo AIB... terminada
+nnz factor: 3777810
+Construccion: 1.439714 s
+Resolviendo... terminada
+Resolucion: 228.117159 s
+Iteraciones: 11478
+Residuo: 9.256237e-11
+Convergio: Si
+
+------------------------------------------------------------
+Jacobi
+------------------------------------------------------------
+Construyendo Jacobi... terminada
+nnz factor: 986703
+Construccion: 0.018012 s
+Resolviendo... terminada
+Resolucion: 166.693749 s
+Iteraciones: 10350
+Residuo: 9.872980e-11
+Convergio: Si
+
+Matriz bone010 terminada.
+
+############################################################
+MATRIZ 5/5: ldoor
+############################################################
+Leyendo matriz... terminada
+n:      952203
+nnz(A): 42493817
+
+------------------------------------------------------------
+FSAI q = 1
+------------------------------------------------------------
+Construyendo FSAI... terminada
+nnz factor: 21723010
+Construccion: 4.489994 s
+Resolviendo... terminada
+Resolucion: 27.124619 s
+Iteraciones: 957
+Residuo: 9.827107e-11
+Convergio: Si
+
+------------------------------------------------------------
+SAINV tau = 2.000000e-01
+------------------------------------------------------------
+Construyendo SAINV... terminada
+nnz factor: 2572947
+Construccion: 2.749177 s
+Resolviendo... terminada
+Resolucion: 58.217812 s
+Iteraciones: 3282
+Residuo: 9.621456e-11
+Convergio: Si
+
+------------------------------------------------------------
+AIB tau = 1.000000e-01, l = 40
+------------------------------------------------------------
+Construyendo AIB... terminada
+nnz factor: 10013562
+Construccion: 3.339457 s
+Resolviendo... terminada
+Resolucion: 215.057376 s
+Iteraciones: 9735
+Residuo: 9.962540e-11
+Convergio: Si
+
+------------------------------------------------------------
+Jacobi
+------------------------------------------------------------
+Construyendo Jacobi... terminada
+nnz factor: 952203
+Construccion: 0.018512 s
+Resolviendo... terminada
+Resolucion: 122.774824 s
+Iteraciones: 8371
+Residuo: 9.981154e-11
+Convergio: Si
+
+Matriz ldoor terminada.
+
+============================================================
+EXPERIMENTO TERMINADO
+============================================================
+Pruebas completadas: 20/20
+Convergencias:       20/20
+Resultados:          salidas/experimento3.csv
+============================================================
